@@ -1,0 +1,28 @@
+In 2377 seconds, the solver found a solution with a total distance of 16949 km.
+Average distance: 211 km
+Maximal distance: 731 km
+------Day 1------
+Leipsick richtet aus für: ['Roundnet Dortmund', 'MRC I', 'Roundnet Sharks Kiel']
+NULL SECHS NEUN 1 richtet aus für: ['Heidelberg', 'RCK Dinos', 'Ravens']
+Eintracht Hildesheim von 1861 e.V. richtet aus für: ['KA-Boom', 'Roundnet Raccoons', 'Fisch Pferd Fuchs']
+1. Roundnet-Verein Mainz richtet aus für: ['Nur der RCW!', 'Spaceballers Colonia', 'Berlin']
+------Day 2------
+Nur der RCW! richtet aus für: ['KA-Boom', 'Leipsick', 'Heidelberg']
+Roundnet Raccoons richtet aus für: ['Roundnet Dortmund', 'NULL SECHS NEUN 1', 'Berlin']
+Eintracht Hildesheim von 1861 e.V. richtet aus für: ['Spaceballers Colonia', 'Roundnet Sharks Kiel', 'Ravens']
+Fisch Pferd Fuchs richtet aus für: ['MRC I', 'RCK Dinos', '1. Roundnet-Verein Mainz']
+------Day 3------
+Heidelberg richtet aus für: ['Spaceballers Colonia', 'Roundnet Raccoons', 'MRC I']
+NULL SECHS NEUN 1 richtet aus für: ['KA-Boom', 'Roundnet Sharks Kiel', '1. Roundnet-Verein Mainz']
+Berlin richtet aus für: ['Leipsick', 'RCK Dinos', 'Eintracht Hildesheim von 1861 e.V.']
+Fisch Pferd Fuchs richtet aus für: ['Nur der RCW!', 'Roundnet Dortmund', 'Ravens']
+------Day 4------
+Roundnet Raccoons richtet aus für: ['Nur der RCW!', 'Roundnet Sharks Kiel', 'RCK Dinos']
+MRC I richtet aus für: ['KA-Boom', 'Berlin', 'Ravens']
+NULL SECHS NEUN 1 richtet aus für: ['Spaceballers Colonia', 'Leipsick', 'Fisch Pferd Fuchs']
+1. Roundnet-Verein Mainz richtet aus für: ['Roundnet Dortmund', 'Heidelberg', 'Eintracht Hildesheim von 1861 e.V.']
+------Day 5------
+Nur der RCW! richtet aus für: ['MRC I', 'NULL SECHS NEUN 1', 'Eintracht Hildesheim von 1861 e.V.']
+Spaceballers Colonia richtet aus für: ['Roundnet Dortmund', 'KA-Boom', 'RCK Dinos']
+Roundnet Raccoons richtet aus für: ['Leipsick', '1. Roundnet-Verein Mainz', 'Ravens']
+Fisch Pferd Fuchs richtet aus für: ['Heidelberg', 'Roundnet Sharks Kiel', 'Berlin']

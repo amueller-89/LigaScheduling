@@ -1,0 +1,1388 @@
+SCIP version 8.0.4 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: Soplex 6.0.4] [GitHash: a8e51afd1e]
+Copyright (c) 2002-2023 Zuse Institute Berlin (ZIB)
+
+External libraries: 
+  Soplex 6.0.4         Linear Programming Solver developed at Zuse Institute Berlin (soplex.zib.de) [GitHash: 950b1658]
+  CppAD 20180000.0     Algorithmic Differentiation of C++ algorithms developed by B. Bell (github.com/coin-or/CppAD)
+  MPIR 3.0.0           Multiple Precision Integers and Rationals Library developed by W. Hart (mpir.org)
+  ZIMPL 3.5.3          Zuse Institute Mathematical Programming Language developed by T. Koch (zimpl.zib.de)
+  AMPL/MP 4e2d45c4     AMPL .nl file reader library (github.com/ampl/mp)
+  PaPILO 2.1.3         parallel presolve for integer and linear optimization (github.com/scipopt/papilo) [GitHash: cec22d9]
+  bliss 0.77           Computing Graph Automorphism Groups by T. Junttila and P. Kaski (www.tcs.hut.fi/Software/bliss/)
+  Ipopt 3.12.9         Interior Point Optimizer developed by A. Waechter et.al. (github.com/coin-or/Ipopt)
+
+reading user parameter file <scip.set>
+
+read problem <MIN_Doubles_NoTriples.lp>
+============
+
+original problem has 3498 variables (0 bin, 3498 int, 0 impl, 0 cont) and 4920 constraints
+
+solve problem
+=============
+
+presolving:
+(round 1, fast)       2232 del vars, 2322 del conss, 0 add conss, 558 chg bounds, 90 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 2259 clqs
+   (0.0s) running MILP presolver
+   (0.0s) MILP presolver (16 rounds): 911 aggregations, 180 fixings, 0 bound changes
+(round 2, medium)     3323 del vars, 4920 del conss, 416 add conss, 558 chg bounds, 90 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 167 clqs
+(round 3, exhaustive) 3323 del vars, 4920 del conss, 416 add conss, 558 chg bounds, 90 chg sides, 0 chg coeffs, 401 upgd conss, 0 impls, 347 clqs
+(round 4, medium)     3323 del vars, 4956 del conss, 452 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 401 upgd conss, 0 impls, 382 clqs
+(round 5, exhaustive) 3323 del vars, 5013 del conss, 477 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 401 upgd conss, 0 impls, 382 clqs
+(round 6, exhaustive) 3323 del vars, 5294 del conss, 477 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 401 upgd conss, 0 impls, 383 clqs
+(round 7, medium)     3334 del vars, 5305 del conss, 477 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 401 upgd conss, 0 impls, 317 clqs
+(round 8, fast)       3334 del vars, 5311 del conss, 483 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 401 upgd conss, 0 impls, 327 clqs
+(round 9, exhaustive) 3341 del vars, 5311 del conss, 483 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 401 upgd conss, 0 impls, 313 clqs
+(round 10, exhaustive) 3341 del vars, 5318 del conss, 490 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 401 upgd conss, 0 impls, 314 clqs
+(round 11, exhaustive) 3341 del vars, 5325 del conss, 490 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 401 upgd conss, 0 impls, 314 clqs
+(round 12, exhaustive) 3341 del vars, 5325 del conss, 490 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 407 upgd conss, 0 impls, 314 clqs
+(round 13, exhaustive) 3356 del vars, 5325 del conss, 490 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 407 upgd conss, 0 impls, 262 clqs
+(round 14, fast)       3371 del vars, 5340 del conss, 490 add conss, 558 chg bounds, 126 chg sides, 108 chg coeffs, 407 upgd conss, 0 impls, 247 clqs
+   (0.0s) probing: 51/127 (40.2%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.0s) probing aborted: 50/50 successive totally useless probings
+   (0.0s) symmetry computation started: requiring (bin +, int -, cont +), (fixed: bin -, int +, cont -)
+   (0.0s) no symmetry present
+presolving (15 rounds: 15 fast, 12 medium, 9 exhaustive):
+ 3371 deleted vars, 5340 deleted constraints, 490 added constraints, 558 tightened bounds, 0 added holes, 126 changed sides, 108 changed coefficients
+ 0 implications, 247 cliques
+presolved problem has 127 variables (127 bin, 0 int, 0 impl, 0 cont) and 70 constraints
+     55 constraints of type <setppc>
+     15 constraints of type <linear>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 0.00
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p 0.0s|     1 |     0 |     0 |     - |  clique|   0 | 127 |  70 |  70 |   0 |  0 |   0 |   0 | 0.000000e+00 | 4.915000e+03 |    Inf | unknown
+p 0.0s|     1 |     0 |     0 |     - | vbounds|   0 | 127 | 123 |  70 |   0 |  0 |  55 |   0 | 0.000000e+00 | 4.716000e+03 |    Inf | unknown
+* 0.0s|     1 |     0 |    51 |     - |    LP  |   0 | 127 | 123 |  70 |   0 |  0 |  55 |   0 | 2.897000e+03 | 2.897000e+03 |   0.00%| unknown
+  0.0s|     1 |     0 |    51 |     - |    18M |   0 | 127 | 123 |  70 |   0 |  0 |  55 |   0 | 2.897000e+03 | 2.897000e+03 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.00
+Solving Nodes      : 1
+Primal Bound       : +2.89700000000000e+03 (3 solutions)
+Dual Bound         : +2.89700000000000e+03
+Gap                : 0.00 %
+
+primal solution (original space):
+=================================
+
+objective value:                                 2897
+M#0#2#0                                             1 	(obj:310)
+M#0#2#2                                             1 	(obj:0)
+M#0#4#1                                             1 	(obj:468)
+M#0#4#4                                             1 	(obj:0)
+M#0#5#3                                             1 	(obj:354)
+M#0#5#5                                             1 	(obj:0)
+M#1#0#0                                             1 	(obj:0)
+M#1#0#4                                             1 	(obj:170)
+M#1#1#1                                             1 	(obj:0)
+M#1#1#3                                             1 	(obj:133)
+M#1#2#2                                             1 	(obj:0)
+M#1#2#5                                             1 	(obj:490)
+M#2#2#2                                             1 	(obj:0)
+M#2#2#4                                             1 	(obj:332)
+M#2#3#0                                             1 	(obj:214)
+M#2#3#3                                             1 	(obj:0)
+M#2#5#1                                             1 	(obj:426)
+M#2#5#5                                             1 	(obj:0)
+B#0#0#2                                             1 	(obj:0)
+B#0#1#4                                             1 	(obj:0)
+B#0#3#5                                             1 	(obj:0)
+B#1#0#4                                             1 	(obj:0)
+B#1#1#3                                             1 	(obj:0)
+B#1#2#5                                             1 	(obj:0)
+B#2#0#3                                             1 	(obj:0)
+B#2#1#5                                             1 	(obj:0)
+B#2#2#4                                             1 	(obj:0)
+C#0#2#0#2                                           1 	(obj:0)
+C#0#4#1#4                                           1 	(obj:0)
+C#0#5#3#5                                           1 	(obj:0)
+C#1#0#0#4                                           1 	(obj:0)
+C#1#1#1#3                                           1 	(obj:0)
+C#1#2#2#5                                           1 	(obj:0)
+C#2#2#2#4                                           1 	(obj:0)
+C#2#3#0#3                                           1 	(obj:0)
+C#2#5#1#5                                           1 	(obj:0)
+__FourOrNone@1b7                                    1 	(obj:0)
+__FourOrNone@1b9                                    1 	(obj:0)
+__FourOrNone@1bc                                    1 	(obj:0)
+__FourOrNone@1be                                    1 	(obj:0)
+__FourOrNone@1c4                                    1 	(obj:0)
+__FourOrNone@1c6                                    1 	(obj:0)
+__FourOrNone@1c8                                    1 	(obj:0)
+__FourOrNone@1ce                                    1 	(obj:0)
+__FourOrNone@1d3                                    1 	(obj:0)
+__FourOrNone@1d8                                    1 	(obj:0)
+__FourOrNone@1dd                                    1 	(obj:0)
+__FourOrNone@1e2                                    1 	(obj:0)
+__FourOrNone@1e4                                    1 	(obj:0)
+__FourOrNone@1e6                                    1 	(obj:0)
+__FourOrNone@1e9                                    1 	(obj:0)
+__FourOrNone@1eb                                    1 	(obj:0)
+__FourOrNone@1ee                                    1 	(obj:0)
+__FourOrNone@1f0                                    1 	(obj:0)
+__FourOrNone@1f3                                    1 	(obj:0)
+__FourOrNone@1f5                                    1 	(obj:0)
+__FourOrNone@1f8                                    1 	(obj:0)
+__FourOrNone@1fa                                    1 	(obj:0)
+__FourOrNone@200                                    1 	(obj:0)
+__FourOrNone@205                                    1 	(obj:0)
+__FourOrNone@207                                    1 	(obj:0)
+__FourOrNone@209                                    1 	(obj:0)
+__FourOrNone@20f                                    1 	(obj:0)
+__initC_1_xm@211                                    1 	(obj:0)
+__initC_1_bm@213                                    1 	(obj:0)
+__initC_1_xm@216                                    1 	(obj:0)
+__initC_1_bm@218                                    1 	(obj:0)
+__initC_2_xm@21c                                    1 	(obj:0)
+__initC_2_bm@21e                                    1 	(obj:0)
+__initC_2_xm@221                                    1 	(obj:0)
+__initC_2_bm@223                                    1 	(obj:0)
+__initC_3_re@22a                                    1 	(obj:0)
+__initC_3_xm@22c                                    1 	(obj:0)
+__initC_3_bm@22e                                    1 	(obj:0)
+__initC_4_xm@232                                    1 	(obj:0)
+__initC_4_bm@234                                    1 	(obj:0)
+__initC_4_xm@237                                    1 	(obj:0)
+__initC_4_bm@239                                    1 	(obj:0)
+__initC_5_xm@23d                                    1 	(obj:0)
+__initC_5_bm@23f                                    1 	(obj:0)
+__initC_5_re@245                                    1 	(obj:0)
+__initC_6_xm@248                                    1 	(obj:0)
+__initC_6_bm@24a                                    1 	(obj:0)
+__initC_6_xm@24d                                    1 	(obj:0)
+__initC_6_bm@24f                                    1 	(obj:0)
+__initC_7_xm@253                                    1 	(obj:0)
+__initC_7_bm@255                                    1 	(obj:0)
+__initC_7_xm@258                                    1 	(obj:0)
+__initC_7_bm@25a                                    1 	(obj:0)
+__initC_8_xm@25e                                    1 	(obj:0)
+__initC_8_bm@260                                    1 	(obj:0)
+__initC_8_xm@263                                    1 	(obj:0)
+__initC_8_bm@265                                    1 	(obj:0)
+__initC_9_re@26c                                    1 	(obj:0)
+__initC_9_re@271                                    1 	(obj:0)
+__initC_9_re@272                                    1 	(obj:0)
+__initC_10_x@274                                    1 	(obj:0)
+__initC_10_b@276                                    1 	(obj:0)
+__initC_10_x@279                                    1 	(obj:0)
+__initC_10_b@27b                                    1 	(obj:0)
+__initC_11_x@27f                                    1 	(obj:0)
+__initC_11_b@281                                    1 	(obj:0)
+__initC_11_x@284                                    1 	(obj:0)
+__initC_11_b@286                                    1 	(obj:0)
+__initC_12_x@28a                                    1 	(obj:0)
+__initC_12_b@28c                                    1 	(obj:0)
+__initC_12_x@28f                                    1 	(obj:0)
+__initC_12_b@291                                    1 	(obj:0)
+__initC_13_x@295                                    1 	(obj:0)
+__initC_13_b@297                                    1 	(obj:0)
+__initC_13_x@29a                                    1 	(obj:0)
+__initC_13_b@29c                                    1 	(obj:0)
+__initC_14_x@2a0                                    1 	(obj:0)
+__initC_14_b@2a2                                    1 	(obj:0)
+__initC_14_x@2a5                                    1 	(obj:0)
+__initC_14_b@2a7                                    1 	(obj:0)
+__initC_15_r@2ae                                    1 	(obj:0)
+__initC_15_x@2b0                                    1 	(obj:0)
+__initC_15_b@2b2                                    1 	(obj:0)
+__initC_16_x@2b6                                    1 	(obj:0)
+__initC_16_b@2b8                                    1 	(obj:0)
+__initC_16_x@2bb                                    1 	(obj:0)
+__initC_16_b@2bd                                    1 	(obj:0)
+__initC_17_x@2c1                                    1 	(obj:0)
+__initC_17_b@2c3                                    1 	(obj:0)
+__initC_17_x@2c6                                    1 	(obj:0)
+__initC_17_b@2c8                                    1 	(obj:0)
+__initC_18_x@2cc                                    1 	(obj:0)
+__initC_18_b@2ce                                    1 	(obj:0)
+__initC_18_r@2d4                                    1 	(obj:0)
+__initC_19_x@2d7                                    1 	(obj:0)
+__initC_19_b@2d9                                    1 	(obj:0)
+__initC_19_x@2dc                                    1 	(obj:0)
+__initC_19_b@2de                                    1 	(obj:0)
+__initC_20_x@2e2                                    1 	(obj:0)
+__initC_20_b@2e4                                    1 	(obj:0)
+__initC_20_x@2e7                                    1 	(obj:0)
+__initC_20_b@2e9                                    1 	(obj:0)
+__initC_21_r@2f0                                    1 	(obj:0)
+__initC_21_x@2f2                                    1 	(obj:0)
+__initC_21_b@2f4                                    1 	(obj:0)
+__initC_22_x@2f8                                    1 	(obj:0)
+__initC_22_b@2fa                                    1 	(obj:0)
+__initC_22_x@2fd                                    1 	(obj:0)
+__initC_22_b@2ff                                    1 	(obj:0)
+__initC_23_x@303                                    1 	(obj:0)
+__initC_23_b@305                                    1 	(obj:0)
+__initC_23_r@30b                                    1 	(obj:0)
+__initC_24_x@30e                                    1 	(obj:0)
+__initC_24_b@310                                    1 	(obj:0)
+__initC_24_x@313                                    1 	(obj:0)
+__initC_24_b@315                                    1 	(obj:0)
+__initC_25_x@319                                    1 	(obj:0)
+__initC_25_b@31b                                    1 	(obj:0)
+__initC_25_x@31e                                    1 	(obj:0)
+__initC_25_b@320                                    1 	(obj:0)
+__initC_26_x@324                                    1 	(obj:0)
+__initC_26_b@326                                    1 	(obj:0)
+__initC_26_x@329                                    1 	(obj:0)
+__initC_26_b@32b                                    1 	(obj:0)
+__initC_27_r@332                                    1 	(obj:0)
+__initC_27_x@334                                    1 	(obj:0)
+__initC_27_b@336                                    1 	(obj:0)
+__initC_28_x@33a                                    1 	(obj:0)
+__initC_28_b@33c                                    1 	(obj:0)
+__initC_28_x@33f                                    1 	(obj:0)
+__initC_28_b@341                                    1 	(obj:0)
+__initC_29_x@345                                    1 	(obj:0)
+__initC_29_b@347                                    1 	(obj:0)
+__initC_29_x@34a                                    1 	(obj:0)
+__initC_29_b@34c                                    1 	(obj:0)
+__initC_30_x@350                                    1 	(obj:0)
+__initC_30_b@352                                    1 	(obj:0)
+__initC_30_r@358                                    1 	(obj:0)
+__initC_31_x@35b                                    1 	(obj:0)
+__initC_31_b@35d                                    1 	(obj:0)
+__initC_31_x@360                                    1 	(obj:0)
+__initC_31_b@362                                    1 	(obj:0)
+__initC_32_x@366                                    1 	(obj:0)
+__initC_32_b@368                                    1 	(obj:0)
+__initC_32_x@36b                                    1 	(obj:0)
+__initC_32_b@36d                                    1 	(obj:0)
+__initC_33_x@371                                    1 	(obj:0)
+__initC_33_b@373                                    1 	(obj:0)
+__initC_33_r@379                                    1 	(obj:0)
+__initC_34_x@37c                                    1 	(obj:0)
+__initC_34_b@37e                                    1 	(obj:0)
+__initC_34_x@381                                    1 	(obj:0)
+__initC_34_b@383                                    1 	(obj:0)
+__initC_35_r@38a                                    1 	(obj:0)
+__initC_35_x@38c                                    1 	(obj:0)
+__initC_35_b@38e                                    1 	(obj:0)
+__initC_36_x@392                                    1 	(obj:0)
+__initC_36_b@394                                    1 	(obj:0)
+__initC_36_x@397                                    1 	(obj:0)
+__initC_36_b@399                                    1 	(obj:0)
+__initC_37_x@39d                                    1 	(obj:0)
+__initC_37_b@39f                                    1 	(obj:0)
+__initC_37_x@3a2                                    1 	(obj:0)
+__initC_37_b@3a4                                    1 	(obj:0)
+__initC_38_x@3a8                                    1 	(obj:0)
+__initC_38_b@3aa                                    1 	(obj:0)
+__initC_38_x@3ad                                    1 	(obj:0)
+__initC_38_b@3af                                    1 	(obj:0)
+__initC_39_x@3b3                                    1 	(obj:0)
+__initC_39_b@3b5                                    1 	(obj:0)
+__initC_39_x@3b8                                    1 	(obj:0)
+__initC_39_b@3ba                                    1 	(obj:0)
+__initC_40_x@3be                                    1 	(obj:0)
+__initC_40_b@3c0                                    1 	(obj:0)
+__initC_40_x@3c3                                    1 	(obj:0)
+__initC_40_b@3c5                                    1 	(obj:0)
+__initC_41_r@3cc                                    1 	(obj:0)
+__initC_41_x@3ce                                    1 	(obj:0)
+__initC_41_b@3d0                                    1 	(obj:0)
+__initC_42_x@3d4                                    1 	(obj:0)
+__initC_42_b@3d6                                    1 	(obj:0)
+__initC_42_r@3dc                                    1 	(obj:0)
+__initC_43_x@3df                                    1 	(obj:0)
+__initC_43_b@3e1                                    1 	(obj:0)
+__initC_43_x@3e4                                    1 	(obj:0)
+__initC_43_b@3e6                                    1 	(obj:0)
+__initC_44_x@3ea                                    1 	(obj:0)
+__initC_44_b@3ec                                    1 	(obj:0)
+__initC_44_x@3ef                                    1 	(obj:0)
+__initC_44_b@3f1                                    1 	(obj:0)
+__initC_45_x@3f5                                    1 	(obj:0)
+__initC_45_b@3f7                                    1 	(obj:0)
+__initC_45_x@3fa                                    1 	(obj:0)
+__initC_45_b@3fc                                    1 	(obj:0)
+__initC_46_x@400                                    1 	(obj:0)
+__initC_46_b@402                                    1 	(obj:0)
+__initC_46_x@405                                    1 	(obj:0)
+__initC_46_b@407                                    1 	(obj:0)
+__initC_47_r@40e                                    1 	(obj:0)
+__initC_47_r@413                                    1 	(obj:0)
+__initC_47_r@414                                    1 	(obj:0)
+__initC_48_x@416                                    1 	(obj:0)
+__initC_48_b@418                                    1 	(obj:0)
+__initC_48_x@41b                                    1 	(obj:0)
+__initC_48_b@41d                                    1 	(obj:0)
+__initC_49_x@421                                    1 	(obj:0)
+__initC_49_b@423                                    1 	(obj:0)
+__initC_49_x@426                                    1 	(obj:0)
+__initC_49_b@428                                    1 	(obj:0)
+__initC_50_x@42c                                    1 	(obj:0)
+__initC_50_b@42e                                    1 	(obj:0)
+__initC_50_x@431                                    1 	(obj:0)
+__initC_50_b@433                                    1 	(obj:0)
+__initC_51_x@437                                    1 	(obj:0)
+__initC_51_b@439                                    1 	(obj:0)
+__initC_51_x@43c                                    1 	(obj:0)
+__initC_51_b@43e                                    1 	(obj:0)
+__initC_52_x@442                                    1 	(obj:0)
+__initC_52_b@444                                    1 	(obj:0)
+__initC_52_x@447                                    1 	(obj:0)
+__initC_52_b@449                                    1 	(obj:0)
+__initC_53_r@450                                    1 	(obj:0)
+__initC_53_x@452                                    1 	(obj:0)
+__initC_53_b@454                                    1 	(obj:0)
+__initC_54_x@458                                    1 	(obj:0)
+__initC_54_b@45a                                    1 	(obj:0)
+__initC_54_r@460                                    1 	(obj:0)
+__initC_55_x@463                                    1 	(obj:0)
+__initC_55_b@465                                    1 	(obj:0)
+__initC_55_x@468                                    1 	(obj:0)
+__initC_55_b@46a                                    1 	(obj:0)
+__initC_56_x@46e                                    1 	(obj:0)
+__initC_56_b@470                                    1 	(obj:0)
+__initC_56_x@473                                    1 	(obj:0)
+__initC_56_b@475                                    1 	(obj:0)
+__initC_57_r@47c                                    1 	(obj:0)
+__initC_57_x@47e                                    1 	(obj:0)
+__initC_57_b@480                                    1 	(obj:0)
+__initC_58_x@484                                    1 	(obj:0)
+__initC_58_b@486                                    1 	(obj:0)
+__initC_58_x@489                                    1 	(obj:0)
+__initC_58_b@48b                                    1 	(obj:0)
+__initC_59_x@48f                                    1 	(obj:0)
+__initC_59_b@491                                    1 	(obj:0)
+__initC_59_x@494                                    1 	(obj:0)
+__initC_59_b@496                                    1 	(obj:0)
+__initC_60_x@49a                                    1 	(obj:0)
+__initC_60_b@49c                                    1 	(obj:0)
+__initC_60_r@4a2                                    1 	(obj:0)
+__initC_61_x@4a5                                    1 	(obj:0)
+__initC_61_b@4a7                                    1 	(obj:0)
+__initC_61_x@4aa                                    1 	(obj:0)
+__initC_61_b@4ac                                    1 	(obj:0)
+__initC_62_x@4b0                                    1 	(obj:0)
+__initC_62_b@4b2                                    1 	(obj:0)
+__initC_62_x@4b5                                    1 	(obj:0)
+__initC_62_b@4b7                                    1 	(obj:0)
+__initC_63_r@4be                                    1 	(obj:0)
+__initC_63_x@4c0                                    1 	(obj:0)
+__initC_63_b@4c2                                    1 	(obj:0)
+__initC_64_x@4c6                                    1 	(obj:0)
+__initC_64_b@4c8                                    1 	(obj:0)
+__initC_64_x@4cb                                    1 	(obj:0)
+__initC_64_b@4cd                                    1 	(obj:0)
+__initC_65_x@4d1                                    1 	(obj:0)
+__initC_65_b@4d3                                    1 	(obj:0)
+__initC_65_r@4d9                                    1 	(obj:0)
+__initC_66_x@4dc                                    1 	(obj:0)
+__initC_66_b@4de                                    1 	(obj:0)
+__initC_66_x@4e1                                    1 	(obj:0)
+__initC_66_b@4e3                                    1 	(obj:0)
+__initC_67_x@4e7                                    1 	(obj:0)
+__initC_67_b@4e9                                    1 	(obj:0)
+__initC_67_x@4ec                                    1 	(obj:0)
+__initC_67_b@4ee                                    1 	(obj:0)
+__initC_68_x@4f2                                    1 	(obj:0)
+__initC_68_b@4f4                                    1 	(obj:0)
+__initC_68_x@4f7                                    1 	(obj:0)
+__initC_68_b@4f9                                    1 	(obj:0)
+__initC_69_r@500                                    1 	(obj:0)
+__initC_69_x@502                                    1 	(obj:0)
+__initC_69_b@504                                    1 	(obj:0)
+__initC_70_x@508                                    1 	(obj:0)
+__initC_70_b@50a                                    1 	(obj:0)
+__initC_70_x@50d                                    1 	(obj:0)
+__initC_70_b@50f                                    1 	(obj:0)
+__initC_71_x@513                                    1 	(obj:0)
+__initC_71_b@515                                    1 	(obj:0)
+__initC_71_x@518                                    1 	(obj:0)
+__initC_71_b@51a                                    1 	(obj:0)
+__initC_72_x@51e                                    1 	(obj:0)
+__initC_72_b@520                                    1 	(obj:0)
+__initC_72_r@526                                    1 	(obj:0)
+__initC_73_x@529                                    1 	(obj:0)
+__initC_73_b@52b                                    1 	(obj:0)
+__initC_73_x@52e                                    1 	(obj:0)
+__initC_73_b@530                                    1 	(obj:0)
+__initC_74_x@534                                    1 	(obj:0)
+__initC_74_b@536                                    1 	(obj:0)
+__initC_74_x@539                                    1 	(obj:0)
+__initC_74_b@53b                                    1 	(obj:0)
+__initC_75_x@53f                                    1 	(obj:0)
+__initC_75_b@541                                    1 	(obj:0)
+__initC_75_x@544                                    1 	(obj:0)
+__initC_75_b@546                                    1 	(obj:0)
+__initC_76_x@54a                                    1 	(obj:0)
+__initC_76_b@54c                                    1 	(obj:0)
+__initC_76_x@54f                                    1 	(obj:0)
+__initC_76_b@551                                    1 	(obj:0)
+__initC_77_x@555                                    1 	(obj:0)
+__initC_77_b@557                                    1 	(obj:0)
+__initC_77_r@55d                                    1 	(obj:0)
+__initC_78_r@563                                    1 	(obj:0)
+__initC_78_x@565                                    1 	(obj:0)
+__initC_78_b@567                                    1 	(obj:0)
+__initC_79_x@56b                                    1 	(obj:0)
+__initC_79_b@56d                                    1 	(obj:0)
+__initC_79_x@570                                    1 	(obj:0)
+__initC_79_b@572                                    1 	(obj:0)
+__initC_80_x@576                                    1 	(obj:0)
+__initC_80_b@578                                    1 	(obj:0)
+__initC_80_x@57b                                    1 	(obj:0)
+__initC_80_b@57d                                    1 	(obj:0)
+__initC_81_x@581                                    1 	(obj:0)
+__initC_81_b@583                                    1 	(obj:0)
+__initC_81_x@586                                    1 	(obj:0)
+__initC_81_b@588                                    1 	(obj:0)
+__initC_82_x@58c                                    1 	(obj:0)
+__initC_82_b@58e                                    1 	(obj:0)
+__initC_82_x@591                                    1 	(obj:0)
+__initC_82_b@593                                    1 	(obj:0)
+__initC_83_x@597                                    1 	(obj:0)
+__initC_83_b@599                                    1 	(obj:0)
+__initC_83_x@59c                                    1 	(obj:0)
+__initC_83_b@59e                                    1 	(obj:0)
+__initC_84_r@5a5                                    1 	(obj:0)
+__initC_84_r@5aa                                    1 	(obj:0)
+__initC_84_r@5ab                                    1 	(obj:0)
+__initC_85_x@5ad                                    1 	(obj:0)
+__initC_85_b@5af                                    1 	(obj:0)
+__initC_85_x@5b2                                    1 	(obj:0)
+__initC_85_b@5b4                                    1 	(obj:0)
+__initC_86_x@5b8                                    1 	(obj:0)
+__initC_86_b@5ba                                    1 	(obj:0)
+__initC_86_x@5bd                                    1 	(obj:0)
+__initC_86_b@5bf                                    1 	(obj:0)
+__initC_87_x@5c3                                    1 	(obj:0)
+__initC_87_b@5c5                                    1 	(obj:0)
+__initC_87_x@5c8                                    1 	(obj:0)
+__initC_87_b@5ca                                    1 	(obj:0)
+__initC_88_x@5ce                                    1 	(obj:0)
+__initC_88_b@5d0                                    1 	(obj:0)
+__initC_88_x@5d3                                    1 	(obj:0)
+__initC_88_b@5d5                                    1 	(obj:0)
+__initC_89_r@5dc                                    1 	(obj:0)
+__initC_89_x@5de                                    1 	(obj:0)
+__initC_89_b@5e0                                    1 	(obj:0)
+__initC_90_x@5e4                                    1 	(obj:0)
+__initC_90_b@5e6                                    1 	(obj:0)
+__initC_90_r@5ec                                    1 	(obj:0)
+__initC_91_r@5f2                                    1 	(obj:0)
+__initC_91_x@5f4                                    1 	(obj:0)
+__initC_91_b@5f6                                    1 	(obj:0)
+__initC_92_x@5fa                                    1 	(obj:0)
+__initC_92_b@5fc                                    1 	(obj:0)
+__initC_92_r@602                                    1 	(obj:0)
+__initC_93_x@605                                    1 	(obj:0)
+__initC_93_b@607                                    1 	(obj:0)
+__initC_93_x@60a                                    1 	(obj:0)
+__initC_93_b@60c                                    1 	(obj:0)
+__initC_94_x@610                                    1 	(obj:0)
+__initC_94_b@612                                    1 	(obj:0)
+__initC_94_x@615                                    1 	(obj:0)
+__initC_94_b@617                                    1 	(obj:0)
+__initC_95_x@61b                                    1 	(obj:0)
+__initC_95_b@61d                                    1 	(obj:0)
+__initC_95_x@620                                    1 	(obj:0)
+__initC_95_b@622                                    1 	(obj:0)
+__initC_96_x@626                                    1 	(obj:0)
+__initC_96_b@628                                    1 	(obj:0)
+__initC_96_x@62b                                    1 	(obj:0)
+__initC_96_b@62d                                    1 	(obj:0)
+__initC_97_r@634                                    1 	(obj:0)
+__initC_97_x@636                                    1 	(obj:0)
+__initC_97_b@638                                    1 	(obj:0)
+__initC_98_x@63c                                    1 	(obj:0)
+__initC_98_b@63e                                    1 	(obj:0)
+__initC_98_x@641                                    1 	(obj:0)
+__initC_98_b@643                                    1 	(obj:0)
+__initC_99_x@647                                    1 	(obj:0)
+__initC_99_b@649                                    1 	(obj:0)
+__initC_99_r@64f                                    1 	(obj:0)
+__initC_100_@652                                    1 	(obj:0)
+__initC_100_@654                                    1 	(obj:0)
+__initC_100_@657                                    1 	(obj:0)
+__initC_100_@659                                    1 	(obj:0)
+__initC_101_@65d                                    1 	(obj:0)
+__initC_101_@65f                                    1 	(obj:0)
+__initC_101_@662                                    1 	(obj:0)
+__initC_101_@664                                    1 	(obj:0)
+__initC_102_@668                                    1 	(obj:0)
+__initC_102_@66a                                    1 	(obj:0)
+__initC_102_@66d                                    1 	(obj:0)
+__initC_102_@66f                                    1 	(obj:0)
+__initC_103_@676                                    1 	(obj:0)
+__initC_103_@678                                    1 	(obj:0)
+__initC_103_@67a                                    1 	(obj:0)
+__initC_104_@67e                                    1 	(obj:0)
+__initC_104_@680                                    1 	(obj:0)
+__initC_104_@686                                    1 	(obj:0)
+__initC_105_@689                                    1 	(obj:0)
+__initC_105_@68b                                    1 	(obj:0)
+__initC_105_@68e                                    1 	(obj:0)
+__initC_105_@690                                    1 	(obj:0)
+__initC_106_@694                                    1 	(obj:0)
+__initC_106_@696                                    1 	(obj:0)
+__initC_106_@699                                    1 	(obj:0)
+__initC_106_@69b                                    1 	(obj:0)
+__initC_107_@69f                                    1 	(obj:0)
+__initC_107_@6a1                                    1 	(obj:0)
+__initC_107_@6a4                                    1 	(obj:0)
+__initC_107_@6a6                                    1 	(obj:0)
+__initC_108_@6aa                                    1 	(obj:0)
+__initC_108_@6ac                                    1 	(obj:0)
+__initC_108_@6af                                    1 	(obj:0)
+__initC_108_@6b1                                    1 	(obj:0)
+__initC_109_@6b8                                    1 	(obj:0)
+__initC_109_@6bd                                    1 	(obj:0)
+__initC_109_@6be                                    1 	(obj:0)
+__initC_110_@6c0                                    1 	(obj:0)
+__initC_110_@6c2                                    1 	(obj:0)
+__initC_110_@6c5                                    1 	(obj:0)
+__initC_110_@6c7                                    1 	(obj:0)
+__initC_111_@6cb                                    1 	(obj:0)
+__initC_111_@6cd                                    1 	(obj:0)
+__initC_111_@6d0                                    1 	(obj:0)
+__initC_111_@6d2                                    1 	(obj:0)
+__initC_112_@6d6                                    1 	(obj:0)
+__initC_112_@6d8                                    1 	(obj:0)
+__initC_112_@6db                                    1 	(obj:0)
+__initC_112_@6dd                                    1 	(obj:0)
+__initC_113_@6e1                                    1 	(obj:0)
+__initC_113_@6e3                                    1 	(obj:0)
+__initC_113_@6e6                                    1 	(obj:0)
+__initC_113_@6e8                                    1 	(obj:0)
+__initC_114_@6ec                                    1 	(obj:0)
+__initC_114_@6ee                                    1 	(obj:0)
+__initC_114_@6f1                                    1 	(obj:0)
+__initC_114_@6f3                                    1 	(obj:0)
+__initC_115_@6fa                                    1 	(obj:0)
+__initC_115_@6fc                                    1 	(obj:0)
+__initC_115_@6fe                                    1 	(obj:0)
+__initC_116_@702                                    1 	(obj:0)
+__initC_116_@704                                    1 	(obj:0)
+__initC_116_@707                                    1 	(obj:0)
+__initC_116_@709                                    1 	(obj:0)
+__initC_117_@70d                                    1 	(obj:0)
+__initC_117_@70f                                    1 	(obj:0)
+__initC_117_@715                                    1 	(obj:0)
+__initC_118_@718                                    1 	(obj:0)
+__initC_118_@71a                                    1 	(obj:0)
+__initC_118_@71d                                    1 	(obj:0)
+__initC_118_@71f                                    1 	(obj:0)
+__initC_119_@723                                    1 	(obj:0)
+__initC_119_@725                                    1 	(obj:0)
+__initC_119_@728                                    1 	(obj:0)
+__initC_119_@72a                                    1 	(obj:0)
+__initC_120_@72e                                    1 	(obj:0)
+__initC_120_@730                                    1 	(obj:0)
+__initC_120_@733                                    1 	(obj:0)
+__initC_120_@735                                    1 	(obj:0)
+__initC_121_@739                                    1 	(obj:0)
+__initC_121_@73b                                    1 	(obj:0)
+__initC_121_@73e                                    1 	(obj:0)
+__initC_121_@740                                    1 	(obj:0)
+__initC_122_@747                                    1 	(obj:0)
+__initC_122_@749                                    1 	(obj:0)
+__initC_122_@74b                                    1 	(obj:0)
+__initC_123_@74f                                    1 	(obj:0)
+__initC_123_@751                                    1 	(obj:0)
+__initC_123_@757                                    1 	(obj:0)
+__initC_124_@75a                                    1 	(obj:0)
+__initC_124_@75c                                    1 	(obj:0)
+__initC_124_@75f                                    1 	(obj:0)
+__initC_124_@761                                    1 	(obj:0)
+__initC_125_@765                                    1 	(obj:0)
+__initC_125_@767                                    1 	(obj:0)
+__initC_125_@76a                                    1 	(obj:0)
+__initC_125_@76c                                    1 	(obj:0)
+__initC_126_@770                                    1 	(obj:0)
+__initC_126_@772                                    1 	(obj:0)
+__initC_126_@775                                    1 	(obj:0)
+__initC_126_@777                                    1 	(obj:0)
+__initC_127_@77b                                    1 	(obj:0)
+__initC_127_@77d                                    1 	(obj:0)
+__initC_127_@780                                    1 	(obj:0)
+__initC_127_@782                                    1 	(obj:0)
+__initC_128_@789                                    1 	(obj:0)
+__initC_128_@78e                                    1 	(obj:0)
+__initC_128_@78f                                    1 	(obj:0)
+__initC_129_@791                                    1 	(obj:0)
+__initC_129_@793                                    1 	(obj:0)
+__initC_129_@796                                    1 	(obj:0)
+__initC_129_@798                                    1 	(obj:0)
+__initC_130_@79c                                    1 	(obj:0)
+__initC_130_@79e                                    1 	(obj:0)
+__initC_130_@7a1                                    1 	(obj:0)
+__initC_130_@7a3                                    1 	(obj:0)
+__initC_131_@7a7                                    1 	(obj:0)
+__initC_131_@7a9                                    1 	(obj:0)
+__initC_131_@7ac                                    1 	(obj:0)
+__initC_131_@7ae                                    1 	(obj:0)
+__initC_132_@7b2                                    1 	(obj:0)
+__initC_132_@7b4                                    1 	(obj:0)
+__initC_132_@7b7                                    1 	(obj:0)
+__initC_132_@7b9                                    1 	(obj:0)
+__initC_133_@7bd                                    1 	(obj:0)
+__initC_133_@7bf                                    1 	(obj:0)
+__initC_133_@7c5                                    1 	(obj:0)
+__initC_134_@7cb                                    1 	(obj:0)
+__initC_134_@7cd                                    1 	(obj:0)
+__initC_134_@7cf                                    1 	(obj:0)
+__initC_135_@7d3                                    1 	(obj:0)
+__initC_135_@7d5                                    1 	(obj:0)
+__initC_135_@7d8                                    1 	(obj:0)
+__initC_135_@7da                                    1 	(obj:0)
+__initC_136_@7de                                    1 	(obj:0)
+__initC_136_@7e0                                    1 	(obj:0)
+__initC_136_@7e3                                    1 	(obj:0)
+__initC_136_@7e5                                    1 	(obj:0)
+__initC_137_@7e9                                    1 	(obj:0)
+__initC_137_@7eb                                    1 	(obj:0)
+__initC_137_@7ee                                    1 	(obj:0)
+__initC_137_@7f0                                    1 	(obj:0)
+__initC_138_@7f4                                    1 	(obj:0)
+__initC_138_@7f6                                    1 	(obj:0)
+__initC_138_@7f9                                    1 	(obj:0)
+__initC_138_@7fb                                    1 	(obj:0)
+__initC_139_@7ff                                    1 	(obj:0)
+__initC_139_@801                                    1 	(obj:0)
+__initC_139_@804                                    1 	(obj:0)
+__initC_139_@806                                    1 	(obj:0)
+__initC_140_@80d                                    1 	(obj:0)
+__initC_140_@80f                                    1 	(obj:0)
+__initC_140_@811                                    1 	(obj:0)
+__initC_141_@815                                    1 	(obj:0)
+__initC_141_@817                                    1 	(obj:0)
+__initC_141_@81d                                    1 	(obj:0)
+__initC_142_@820                                    1 	(obj:0)
+__initC_142_@822                                    1 	(obj:0)
+__initC_142_@825                                    1 	(obj:0)
+__initC_142_@827                                    1 	(obj:0)
+__initC_143_@82b                                    1 	(obj:0)
+__initC_143_@82d                                    1 	(obj:0)
+__initC_143_@830                                    1 	(obj:0)
+__initC_143_@832                                    1 	(obj:0)
+__initC_144_@836                                    1 	(obj:0)
+__initC_144_@838                                    1 	(obj:0)
+__initC_144_@83b                                    1 	(obj:0)
+__initC_144_@83d                                    1 	(obj:0)
+__initC_145_@841                                    1 	(obj:0)
+__initC_145_@843                                    1 	(obj:0)
+__initC_145_@846                                    1 	(obj:0)
+__initC_145_@848                                    1 	(obj:0)
+__initC_146_@84c                                    1 	(obj:0)
+__initC_146_@84e                                    1 	(obj:0)
+__initC_146_@854                                    1 	(obj:0)
+__initC_147_@85a                                    1 	(obj:0)
+__initC_147_@85c                                    1 	(obj:0)
+__initC_147_@85e                                    1 	(obj:0)
+__initC_148_@862                                    1 	(obj:0)
+__initC_148_@864                                    1 	(obj:0)
+__initC_148_@867                                    1 	(obj:0)
+__initC_148_@869                                    1 	(obj:0)
+__initC_149_@86d                                    1 	(obj:0)
+__initC_149_@86f                                    1 	(obj:0)
+__initC_149_@872                                    1 	(obj:0)
+__initC_149_@874                                    1 	(obj:0)
+__initC_150_@878                                    1 	(obj:0)
+__initC_150_@87a                                    1 	(obj:0)
+__initC_150_@87d                                    1 	(obj:0)
+__initC_150_@87f                                    1 	(obj:0)
+__initC_151_@883                                    1 	(obj:0)
+__initC_151_@885                                    1 	(obj:0)
+__initC_151_@88b                                    1 	(obj:0)
+__initC_152_@88e                                    1 	(obj:0)
+__initC_152_@890                                    1 	(obj:0)
+__initC_152_@893                                    1 	(obj:0)
+__initC_152_@895                                    1 	(obj:0)
+__initC_153_@89c                                    1 	(obj:0)
+__initC_153_@89e                                    1 	(obj:0)
+__initC_153_@8a0                                    1 	(obj:0)
+__initC_154_@8a4                                    1 	(obj:0)
+__initC_154_@8a6                                    1 	(obj:0)
+__initC_154_@8a9                                    1 	(obj:0)
+__initC_154_@8ab                                    1 	(obj:0)
+__initC_155_@8af                                    1 	(obj:0)
+__initC_155_@8b1                                    1 	(obj:0)
+__initC_155_@8b4                                    1 	(obj:0)
+__initC_155_@8b6                                    1 	(obj:0)
+__initC_156_@8ba                                    1 	(obj:0)
+__initC_156_@8bc                                    1 	(obj:0)
+__initC_156_@8bf                                    1 	(obj:0)
+__initC_156_@8c1                                    1 	(obj:0)
+__initC_157_@8c5                                    1 	(obj:0)
+__initC_157_@8c7                                    1 	(obj:0)
+__initC_157_@8ca                                    1 	(obj:0)
+__initC_157_@8cc                                    1 	(obj:0)
+__initC_158_@8d0                                    1 	(obj:0)
+__initC_158_@8d2                                    1 	(obj:0)
+__initC_158_@8d5                                    1 	(obj:0)
+__initC_158_@8d7                                    1 	(obj:0)
+__initC_159_@8de                                    1 	(obj:0)
+__initC_159_@8e3                                    1 	(obj:0)
+__initC_159_@8e4                                    1 	(obj:0)
+__initC_160_@8e6                                    1 	(obj:0)
+__initC_160_@8e8                                    1 	(obj:0)
+__initC_160_@8eb                                    1 	(obj:0)
+__initC_160_@8ed                                    1 	(obj:0)
+__initC_161_@8f1                                    1 	(obj:0)
+__initC_161_@8f3                                    1 	(obj:0)
+__initC_161_@8f6                                    1 	(obj:0)
+__initC_161_@8f8                                    1 	(obj:0)
+__initC_162_@8fc                                    1 	(obj:0)
+__initC_162_@8fe                                    1 	(obj:0)
+__initC_162_@901                                    1 	(obj:0)
+__initC_162_@903                                    1 	(obj:0)
+__initC_163_@907                                    1 	(obj:0)
+__initC_163_@909                                    1 	(obj:0)
+__initC_163_@90f                                    1 	(obj:0)
+__initC_164_@915                                    1 	(obj:0)
+__initC_164_@917                                    1 	(obj:0)
+__initC_164_@919                                    1 	(obj:0)
+__initC_165_@91d                                    1 	(obj:0)
+__initC_165_@91f                                    1 	(obj:0)
+__initC_165_@922                                    1 	(obj:0)
+__initC_165_@924                                    1 	(obj:0)
+__initC_166_@928                                    1 	(obj:0)
+__initC_166_@92a                                    1 	(obj:0)
+__initC_166_@92d                                    1 	(obj:0)
+__initC_166_@92f                                    1 	(obj:0)
+__initC_167_@933                                    1 	(obj:0)
+__initC_167_@935                                    1 	(obj:0)
+__initC_167_@938                                    1 	(obj:0)
+__initC_167_@93a                                    1 	(obj:0)
+__initC_168_@93e                                    1 	(obj:0)
+__initC_168_@940                                    1 	(obj:0)
+__initC_168_@943                                    1 	(obj:0)
+__initC_168_@945                                    1 	(obj:0)
+__initC_169_@949                                    1 	(obj:0)
+__initC_169_@94b                                    1 	(obj:0)
+__initC_169_@94e                                    1 	(obj:0)
+__initC_169_@950                                    1 	(obj:0)
+__initC_170_@957                                    1 	(obj:0)
+__initC_170_@959                                    1 	(obj:0)
+__initC_170_@95b                                    1 	(obj:0)
+__initC_171_@95f                                    1 	(obj:0)
+__initC_171_@961                                    1 	(obj:0)
+__initC_171_@967                                    1 	(obj:0)
+__initC_172_@96a                                    1 	(obj:0)
+__initC_172_@96c                                    1 	(obj:0)
+__initC_172_@96f                                    1 	(obj:0)
+__initC_172_@971                                    1 	(obj:0)
+__initC_173_@975                                    1 	(obj:0)
+__initC_173_@977                                    1 	(obj:0)
+__initC_173_@97a                                    1 	(obj:0)
+__initC_173_@97c                                    1 	(obj:0)
+__initC_174_@980                                    1 	(obj:0)
+__initC_174_@982                                    1 	(obj:0)
+__initC_174_@985                                    1 	(obj:0)
+__initC_174_@987                                    1 	(obj:0)
+__initC_175_@98e                                    1 	(obj:0)
+__initC_175_@990                                    1 	(obj:0)
+__initC_175_@992                                    1 	(obj:0)
+__initC_176_@996                                    1 	(obj:0)
+__initC_176_@998                                    1 	(obj:0)
+__initC_176_@99b                                    1 	(obj:0)
+__initC_176_@99d                                    1 	(obj:0)
+__initC_177_@9a1                                    1 	(obj:0)
+__initC_177_@9a3                                    1 	(obj:0)
+__initC_177_@9a9                                    1 	(obj:0)
+__initC_178_@9ac                                    1 	(obj:0)
+__initC_178_@9ae                                    1 	(obj:0)
+__initC_178_@9b1                                    1 	(obj:0)
+__initC_178_@9b3                                    1 	(obj:0)
+__initC_179_@9b7                                    1 	(obj:0)
+__initC_179_@9b9                                    1 	(obj:0)
+__initC_179_@9bc                                    1 	(obj:0)
+__initC_179_@9be                                    1 	(obj:0)
+__initC_180_@9c2                                    1 	(obj:0)
+__initC_180_@9c4                                    1 	(obj:0)
+__initC_180_@9c7                                    1 	(obj:0)
+__initC_180_@9c9                                    1 	(obj:0)
+__initC_181_@9cd                                    1 	(obj:0)
+__initC_181_@9cf                                    1 	(obj:0)
+__initC_181_@9d2                                    1 	(obj:0)
+__initC_181_@9d4                                    1 	(obj:0)
+__initC_182_@9d8                                    1 	(obj:0)
+__initC_182_@9da                                    1 	(obj:0)
+__initC_182_@9dd                                    1 	(obj:0)
+__initC_182_@9df                                    1 	(obj:0)
+__initC_183_@9e3                                    1 	(obj:0)
+__initC_183_@9e5                                    1 	(obj:0)
+__initC_183_@9e8                                    1 	(obj:0)
+__initC_183_@9ea                                    1 	(obj:0)
+__initC_184_@9f1                                    1 	(obj:0)
+__initC_184_@9f3                                    1 	(obj:0)
+__initC_184_@9f5                                    1 	(obj:0)
+__initC_185_@9f9                                    1 	(obj:0)
+__initC_185_@9fb                                    1 	(obj:0)
+__initC_185_@9fe                                    1 	(obj:0)
+__initC_185_@a00                                    1 	(obj:0)
+__initC_186_@a04                                    1 	(obj:0)
+__initC_186_@a06                                    1 	(obj:0)
+__initC_186_@a0c                                    1 	(obj:0)
+__initC_187_@a0f                                    1 	(obj:0)
+__initC_187_@a11                                    1 	(obj:0)
+__initC_187_@a14                                    1 	(obj:0)
+__initC_187_@a16                                    1 	(obj:0)
+__initC_188_@a1a                                    1 	(obj:0)
+__initC_188_@a1c                                    1 	(obj:0)
+__initC_188_@a1f                                    1 	(obj:0)
+__initC_188_@a21                                    1 	(obj:0)
+__initC_189_@a25                                    1 	(obj:0)
+__initC_189_@a27                                    1 	(obj:0)
+__initC_189_@a2d                                    1 	(obj:0)
+__initC_190_@a33                                    1 	(obj:0)
+__initC_190_@a35                                    1 	(obj:0)
+__initC_190_@a37                                    1 	(obj:0)
+__initC_191_@a3b                                    1 	(obj:0)
+__initC_191_@a3d                                    1 	(obj:0)
+__initC_191_@a40                                    1 	(obj:0)
+__initC_191_@a42                                    1 	(obj:0)
+__initC_192_@a46                                    1 	(obj:0)
+__initC_192_@a48                                    1 	(obj:0)
+__initC_192_@a4b                                    1 	(obj:0)
+__initC_192_@a4d                                    1 	(obj:0)
+__initC_193_@a51                                    1 	(obj:0)
+__initC_193_@a53                                    1 	(obj:0)
+__initC_193_@a56                                    1 	(obj:0)
+__initC_193_@a58                                    1 	(obj:0)
+__initC_194_@a5c                                    1 	(obj:0)
+__initC_194_@a5e                                    1 	(obj:0)
+__initC_194_@a61                                    1 	(obj:0)
+__initC_194_@a63                                    1 	(obj:0)
+__initC_195_@a67                                    1 	(obj:0)
+__initC_195_@a69                                    1 	(obj:0)
+__initC_195_@a6c                                    1 	(obj:0)
+__initC_195_@a6e                                    1 	(obj:0)
+__initC_196_@a75                                    1 	(obj:0)
+__initC_196_@a7a                                    1 	(obj:0)
+__initC_196_@a7b                                    1 	(obj:0)
+__initC_197_@a7d                                    1 	(obj:0)
+__initC_197_@a7f                                    1 	(obj:0)
+__initC_197_@a82                                    1 	(obj:0)
+__initC_197_@a84                                    1 	(obj:0)
+__initC_198_@a88                                    1 	(obj:0)
+__initC_198_@a8a                                    1 	(obj:0)
+__initC_198_@a8d                                    1 	(obj:0)
+__initC_198_@a8f                                    1 	(obj:0)
+__initC_199_@a93                                    1 	(obj:0)
+__initC_199_@a95                                    1 	(obj:0)
+__initC_199_@a98                                    1 	(obj:0)
+__initC_199_@a9a                                    1 	(obj:0)
+__initC_200_@a9e                                    1 	(obj:0)
+__initC_200_@aa0                                    1 	(obj:0)
+__initC_200_@aa3                                    1 	(obj:0)
+__initC_200_@aa5                                    1 	(obj:0)
+__initC_201_@aa9                                    1 	(obj:0)
+__initC_201_@aab                                    1 	(obj:0)
+__initC_201_@ab1                                    1 	(obj:0)
+__initC_202_@ab7                                    1 	(obj:0)
+__initC_202_@ab9                                    1 	(obj:0)
+__initC_202_@abb                                    1 	(obj:0)
+__initC_203_@abf                                    1 	(obj:0)
+__initC_203_@ac1                                    1 	(obj:0)
+__initC_203_@ac4                                    1 	(obj:0)
+__initC_203_@ac6                                    1 	(obj:0)
+__initC_204_@aca                                    1 	(obj:0)
+__initC_204_@acc                                    1 	(obj:0)
+__initC_204_@acf                                    1 	(obj:0)
+__initC_204_@ad1                                    1 	(obj:0)
+__initC_205_@ad5                                    1 	(obj:0)
+__initC_205_@ad7                                    1 	(obj:0)
+__initC_205_@ada                                    1 	(obj:0)
+__initC_205_@adc                                    1 	(obj:0)
+__initC_206_@ae0                                    1 	(obj:0)
+__initC_206_@ae2                                    1 	(obj:0)
+__initC_206_@ae5                                    1 	(obj:0)
+__initC_206_@ae7                                    1 	(obj:0)
+__initC_207_@aeb                                    1 	(obj:0)
+__initC_207_@aed                                    1 	(obj:0)
+__initC_207_@af0                                    1 	(obj:0)
+__initC_207_@af2                                    1 	(obj:0)
+__initC_208_@af9                                    1 	(obj:0)
+__initC_208_@afb                                    1 	(obj:0)
+__initC_208_@afd                                    1 	(obj:0)
+__initC_209_@b01                                    1 	(obj:0)
+__initC_209_@b03                                    1 	(obj:0)
+__initC_209_@b06                                    1 	(obj:0)
+__initC_209_@b08                                    1 	(obj:0)
+__initC_210_@b0c                                    1 	(obj:0)
+__initC_210_@b0e                                    1 	(obj:0)
+__initC_210_@b14                                    1 	(obj:0)
+__initC_211_@b17                                    1 	(obj:0)
+__initC_211_@b19                                    1 	(obj:0)
+__initC_211_@b1c                                    1 	(obj:0)
+__initC_211_@b1e                                    1 	(obj:0)
+__initC_212_@b22                                    1 	(obj:0)
+__initC_212_@b24                                    1 	(obj:0)
+__initC_212_@b27                                    1 	(obj:0)
+__initC_212_@b29                                    1 	(obj:0)
+__initC_213_@b2d                                    1 	(obj:0)
+__initC_213_@b2f                                    1 	(obj:0)
+__initC_213_@b35                                    1 	(obj:0)
+__initC_214_@b38                                    1 	(obj:0)
+__initC_214_@b3a                                    1 	(obj:0)
+__initC_214_@b3d                                    1 	(obj:0)
+__initC_214_@b3f                                    1 	(obj:0)
+__initC_215_@b43                                    1 	(obj:0)
+__initC_215_@b45                                    1 	(obj:0)
+__initC_215_@b48                                    1 	(obj:0)
+__initC_215_@b4a                                    1 	(obj:0)
+__initC_216_@b51                                    1 	(obj:0)
+__initC_216_@b53                                    1 	(obj:0)
+__initC_216_@b55                                    1 	(obj:0)
+__initC_217_@b59                                    1 	(obj:0)
+__initC_217_@b5b                                    1 	(obj:0)
+__initC_217_@b5e                                    1 	(obj:0)
+__initC_217_@b60                                    1 	(obj:0)
+__initC_218_@b64                                    1 	(obj:0)
+__initC_218_@b66                                    1 	(obj:0)
+__initC_218_@b69                                    1 	(obj:0)
+__initC_218_@b6b                                    1 	(obj:0)
+__initC_219_@b6f                                    1 	(obj:0)
+__initC_219_@b71                                    1 	(obj:0)
+__initC_219_@b74                                    1 	(obj:0)
+__initC_219_@b76                                    1 	(obj:0)
+__initC_220_@b7a                                    1 	(obj:0)
+__initC_220_@b7c                                    1 	(obj:0)
+__initC_220_@b82                                    1 	(obj:0)
+__initC_221_@b85                                    1 	(obj:0)
+__initC_221_@b87                                    1 	(obj:0)
+__initC_221_@b8a                                    1 	(obj:0)
+__initC_221_@b8c                                    1 	(obj:0)
+__initC_222_@b93                                    1 	(obj:0)
+__initC_222_@b95                                    1 	(obj:0)
+__initC_222_@b97                                    1 	(obj:0)
+__initC_223_@b9b                                    1 	(obj:0)
+__initC_223_@b9d                                    1 	(obj:0)
+__initC_223_@ba0                                    1 	(obj:0)
+__initC_223_@ba2                                    1 	(obj:0)
+__initC_224_@ba6                                    1 	(obj:0)
+__initC_224_@ba8                                    1 	(obj:0)
+__initC_224_@bab                                    1 	(obj:0)
+__initC_224_@bad                                    1 	(obj:0)
+__initC_225_@bb1                                    1 	(obj:0)
+__initC_225_@bb3                                    1 	(obj:0)
+__initC_225_@bb9                                    1 	(obj:0)
+__initC_226_@bbc                                    1 	(obj:0)
+__initC_226_@bbe                                    1 	(obj:0)
+__initC_226_@bc1                                    1 	(obj:0)
+__initC_226_@bc3                                    1 	(obj:0)
+__initC_227_@bc7                                    1 	(obj:0)
+__initC_227_@bc9                                    1 	(obj:0)
+__initC_227_@bcc                                    1 	(obj:0)
+__initC_227_@bce                                    1 	(obj:0)
+__initC_228_@bd5                                    1 	(obj:0)
+__initC_228_@bd7                                    1 	(obj:0)
+__initC_228_@bd9                                    1 	(obj:0)
+__initC_229_@bdd                                    1 	(obj:0)
+__initC_229_@bdf                                    1 	(obj:0)
+__initC_229_@be2                                    1 	(obj:0)
+__initC_229_@be4                                    1 	(obj:0)
+__initC_230_@be8                                    1 	(obj:0)
+__initC_230_@bea                                    1 	(obj:0)
+__initC_230_@bed                                    1 	(obj:0)
+__initC_230_@bef                                    1 	(obj:0)
+__initC_231_@bf3                                    1 	(obj:0)
+__initC_231_@bf5                                    1 	(obj:0)
+__initC_231_@bf8                                    1 	(obj:0)
+__initC_231_@bfa                                    1 	(obj:0)
+__initC_232_@bfe                                    1 	(obj:0)
+__initC_232_@c00                                    1 	(obj:0)
+__initC_232_@c03                                    1 	(obj:0)
+__initC_232_@c05                                    1 	(obj:0)
+__initC_233_@c09                                    1 	(obj:0)
+__initC_233_@c0b                                    1 	(obj:0)
+__initC_233_@c0e                                    1 	(obj:0)
+__initC_233_@c10                                    1 	(obj:0)
+__initC_234_@c17                                    1 	(obj:0)
+__initC_234_@c1c                                    1 	(obj:0)
+__initC_234_@c1d                                    1 	(obj:0)
+__initC_235_@c1f                                    1 	(obj:0)
+__initC_235_@c21                                    1 	(obj:0)
+__initC_235_@c24                                    1 	(obj:0)
+__initC_235_@c26                                    1 	(obj:0)
+__initC_236_@c2a                                    1 	(obj:0)
+__initC_236_@c2c                                    1 	(obj:0)
+__initC_236_@c2f                                    1 	(obj:0)
+__initC_236_@c31                                    1 	(obj:0)
+__initC_237_@c38                                    1 	(obj:0)
+__initC_237_@c3a                                    1 	(obj:0)
+__initC_237_@c3c                                    1 	(obj:0)
+__initC_238_@c40                                    1 	(obj:0)
+__initC_238_@c42                                    1 	(obj:0)
+__initC_238_@c48                                    1 	(obj:0)
+__initC_239_@c4b                                    1 	(obj:0)
+__initC_239_@c4d                                    1 	(obj:0)
+__initC_239_@c50                                    1 	(obj:0)
+__initC_239_@c52                                    1 	(obj:0)
+__initC_240_@c56                                    1 	(obj:0)
+__initC_240_@c58                                    1 	(obj:0)
+__initC_240_@c5b                                    1 	(obj:0)
+__initC_240_@c5d                                    1 	(obj:0)
+__initC_241_@c61                                    1 	(obj:0)
+__initC_241_@c63                                    1 	(obj:0)
+__initC_241_@c66                                    1 	(obj:0)
+__initC_241_@c68                                    1 	(obj:0)
+__initC_242_@c6c                                    1 	(obj:0)
+__initC_242_@c6e                                    1 	(obj:0)
+__initC_242_@c71                                    1 	(obj:0)
+__initC_242_@c73                                    1 	(obj:0)
+__initC_243_@c7a                                    1 	(obj:0)
+__initC_243_@c7f                                    1 	(obj:0)
+__initC_243_@c80                                    1 	(obj:0)
+__initC_244_@c82                                    1 	(obj:0)
+__initC_244_@c84                                    1 	(obj:0)
+__initC_244_@c87                                    1 	(obj:0)
+__initC_244_@c89                                    1 	(obj:0)
+__initC_245_@c8d                                    1 	(obj:0)
+__initC_245_@c8f                                    1 	(obj:0)
+__initC_245_@c92                                    1 	(obj:0)
+__initC_245_@c94                                    1 	(obj:0)
+__initC_246_@c98                                    1 	(obj:0)
+__initC_246_@c9a                                    1 	(obj:0)
+__initC_246_@c9d                                    1 	(obj:0)
+__initC_246_@c9f                                    1 	(obj:0)
+__initC_247_@ca3                                    1 	(obj:0)
+__initC_247_@ca5                                    1 	(obj:0)
+__initC_247_@ca8                                    1 	(obj:0)
+__initC_247_@caa                                    1 	(obj:0)
+__initC_248_@cae                                    1 	(obj:0)
+__initC_248_@cb0                                    1 	(obj:0)
+__initC_248_@cb3                                    1 	(obj:0)
+__initC_248_@cb5                                    1 	(obj:0)
+__initC_249_@cbc                                    1 	(obj:0)
+__initC_249_@cbe                                    1 	(obj:0)
+__initC_249_@cc0                                    1 	(obj:0)
+__initC_250_@cc4                                    1 	(obj:0)
+__initC_250_@cc6                                    1 	(obj:0)
+__initC_250_@cc9                                    1 	(obj:0)
+__initC_250_@ccb                                    1 	(obj:0)
+__initC_251_@ccf                                    1 	(obj:0)
+__initC_251_@cd1                                    1 	(obj:0)
+__initC_251_@cd4                                    1 	(obj:0)
+__initC_251_@cd6                                    1 	(obj:0)
+__initC_252_@cda                                    1 	(obj:0)
+__initC_252_@cdc                                    1 	(obj:0)
+__initC_252_@ce2                                    1 	(obj:0)
+__initC_253_@ce5                                    1 	(obj:0)
+__initC_253_@ce7                                    1 	(obj:0)
+__initC_253_@cea                                    1 	(obj:0)
+__initC_253_@cec                                    1 	(obj:0)
+__initC_254_@cf0                                    1 	(obj:0)
+__initC_254_@cf2                                    1 	(obj:0)
+__initC_254_@cf5                                    1 	(obj:0)
+__initC_254_@cf7                                    1 	(obj:0)
+__initC_255_@cfb                                    1 	(obj:0)
+__initC_255_@cfd                                    1 	(obj:0)
+__initC_255_@d03                                    1 	(obj:0)
+__initC_256_@d09                                    1 	(obj:0)
+__initC_256_@d0b                                    1 	(obj:0)
+__initC_256_@d0d                                    1 	(obj:0)
+__initC_257_@d11                                    1 	(obj:0)
+__initC_257_@d13                                    1 	(obj:0)
+__initC_257_@d16                                    1 	(obj:0)
+__initC_257_@d18                                    1 	(obj:0)
+__initC_258_@d1c                                    1 	(obj:0)
+__initC_258_@d1e                                    1 	(obj:0)
+__initC_258_@d21                                    1 	(obj:0)
+__initC_258_@d23                                    1 	(obj:0)
+__initC_259_@d27                                    1 	(obj:0)
+__initC_259_@d29                                    1 	(obj:0)
+__initC_259_@d2c                                    1 	(obj:0)
+__initC_259_@d2e                                    1 	(obj:0)
+__initC_260_@d32                                    1 	(obj:0)
+__initC_260_@d34                                    1 	(obj:0)
+__initC_260_@d37                                    1 	(obj:0)
+__initC_260_@d39                                    1 	(obj:0)
+__initC_261_@d3d                                    1 	(obj:0)
+__initC_261_@d3f                                    1 	(obj:0)
+__initC_261_@d42                                    1 	(obj:0)
+__initC_261_@d44                                    1 	(obj:0)
+__initC_262_@d4b                                    1 	(obj:0)
+__initC_262_@d4d                                    1 	(obj:0)
+__initC_262_@d4f                                    1 	(obj:0)
+__initC_263_@d53                                    1 	(obj:0)
+__initC_263_@d55                                    1 	(obj:0)
+__initC_263_@d58                                    1 	(obj:0)
+__initC_263_@d5a                                    1 	(obj:0)
+__initC_264_@d5e                                    1 	(obj:0)
+__initC_264_@d60                                    1 	(obj:0)
+__initC_264_@d66                                    1 	(obj:0)
+__initC_265_@d69                                    1 	(obj:0)
+__initC_265_@d6b                                    1 	(obj:0)
+__initC_265_@d6e                                    1 	(obj:0)
+__initC_265_@d70                                    1 	(obj:0)
+__initC_266_@d74                                    1 	(obj:0)
+__initC_266_@d76                                    1 	(obj:0)
+__initC_266_@d79                                    1 	(obj:0)
+__initC_266_@d7b                                    1 	(obj:0)
+__initC_267_@d82                                    1 	(obj:0)
+__initC_267_@d84                                    1 	(obj:0)
+__initC_267_@d86                                    1 	(obj:0)
+__initC_268_@d8a                                    1 	(obj:0)
+__initC_268_@d8c                                    1 	(obj:0)
+__initC_268_@d8f                                    1 	(obj:0)
+__initC_268_@d91                                    1 	(obj:0)
+__initC_269_@d95                                    1 	(obj:0)
+__initC_269_@d97                                    1 	(obj:0)
+__initC_269_@d9a                                    1 	(obj:0)
+__initC_269_@d9c                                    1 	(obj:0)
+__initC_270_@da0                                    1 	(obj:0)
+__initC_270_@da2                                    1 	(obj:0)
+__initC_270_@da8                                    1 	(obj:0)
+
+Statistics
+==========
+
+SCIP Status        : problem is solved [optimal solution found]
+Total Time         :       0.00
+  solving          :       0.00
+  presolving       :       0.00 (included in solving)
+  reading          :       0.00
+  copying          :       0.00 (0 times copied the problem)
+Original Problem   :
+  Problem name     : MIN_Doubles_NoTriples.lp
+  Variables        : 3498 (0 binary, 3498 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 4920 initial, 4920 maximal
+  Objective        : minimize, 105 non-zeros (abs.min = 133, abs.max = 1000)
+Presolved Problem  :
+  Problem name     : t_MIN_Doubles_NoTriples.lp
+  Variables        : 127 (127 binary, 0 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 70 initial, 125 maximal
+  Objective        : minimize, 90 non-zeros (abs.min = 133, abs.max = 1000)
+  Nonzeros         : 314 constraint, 697 clique table
+Presolvers         :   ExecTime  SetupTime  Calls  FixedVars   AggrVars   ChgTypes  ChgBounds   AddHoles    DelCons    AddCons   ChgSides   ChgCoefs
+  boundshift       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  convertinttobin  :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  domcol           :       0.00       0.00      2         15          0          0          0          0          0          0          0          0
+  dualagg          :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  dualcomp         :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  dualinfer        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  dualsparsify     :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  gateextraction   :       0.00       0.00      1          0          0          0          0          0         57         25          0          0
+  implics          :       0.00       0.00     12          0          0          0          0          0          0          0          0          0
+  inttobinary      :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  milp             :       0.00       0.00      1        180        911          0          0          0       2598        416          0          0
+  qpkktref         :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  redvub           :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  sparsify         :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  stuffing         :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  trivial          :       0.00       0.00     15        558          0          0          0          0          0          0          0          0
+  tworowbnd        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  dualfix          :       0.00       0.00     15          0          0          0          0          0          0          0          0          0
+  genvbounds       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  probing          :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  pseudoobj        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  symmetry         :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  vbounds          :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  knapsack         :       0.00       0.00      2          0          0          0          0          0         36         36         36        108
+  setppc           :       0.00       0.00     29          0         26          0          0          0        320          6          0          0
+  and              :       0.00       0.00      7          0          7          0          0          0          7          7          0          0
+  linear           :       0.00       0.00     19        558       1116          0        558          0       2322          0         90          0
+  logicor          :       0.00       0.00      4          0          0          0          0          0          0          0          0          0
+  benders          :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  components       :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  root node        :          -          -      -          0          -          -          0          -          -          -          -          -
+Constraints        :     Number  MaxNumber  #Separate #Propagate    #EnfoLP    #EnfoRelax  #EnfoPS    #Check   #ResProp    Cutoffs    DomReds       Cuts    Applied      Conss   Children
+  benderslp        :          0          0          0          0          0          0          0         10          0          0          0          0          0          0          0
+  integral         :          0          0          0          0          0          0          0         10          0          0          0          0          0          0          0
+  setppc           :         55+        63          0        343          0          0          0          6        142         26          0          0          0          0          0
+  linear           :         15         15          0        309          0          0          0          3          3          0          0          0          0          0          0
+  logicor          :          0+        47          0         37          0          0          0          0          3          1          0          0          0          0          0
+  benders          :          0          0          0          0          0          0          0          4          0          0          0          0          0          0          0
+  countsols        :          0          0          0          0          0          0          0          4          0          0          0          0          0          0          0
+  components       :          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+Constraint Timings :  TotalTime  SetupTime   Separate  Propagate     EnfoLP     EnfoPS     EnfoRelax   Check    ResProp    SB-Prop
+  benderslp        :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  integral         :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  setppc           :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  linear           :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  logicor          :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  benders          :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  countsols        :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  components       :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+Propagators        : #Propagate   #ResProp    Cutoffs    DomReds
+  dualfix          :          2          0          0          0
+  genvbounds       :          0          0          0          0
+  nlobbt           :          0          0          0          0
+  obbt             :          0          0          0          0
+  probing          :          0          0          0          0
+  pseudoobj        :          2          0          0          0
+  redcost          :          0          0          0          0
+  rootredcost      :          0          0          0          0
+  symmetry         :          0          0          0          0
+  vbounds          :        152          0          0          0
+Propagator Timings :  TotalTime  SetupTime   Presolve  Propagate    ResProp    SB-Prop
+  dualfix          :       0.00       0.00       0.00       0.00       0.00       0.00
+  genvbounds       :       0.00       0.00       0.00       0.00       0.00       0.00
+  nlobbt           :       0.00       0.00       0.00       0.00       0.00       0.00
+  obbt             :       0.00       0.00       0.00       0.00       0.00       0.00
+  probing          :       0.00       0.00       0.00       0.00       0.00       0.00
+  pseudoobj        :       0.00       0.00       0.00       0.00       0.00       0.00
+  redcost          :       0.00       0.00       0.00       0.00       0.00       0.00
+  rootredcost      :       0.00       0.00       0.00       0.00       0.00       0.00
+  symmetry         :       0.00       0.00       0.00       0.00       0.00       0.00
+  vbounds          :       0.00       0.00       0.00       0.00       0.00       0.00
+Conflict Analysis  :       Time      Calls    Success    DomReds  Conflicts   Literals    Reconvs ReconvLits   Dualrays   Nonzeros   LP Iters   (pool size: [10000,10000])
+  propagation      :       0.00         25         24          -         53        6.1          0        0.0          -          -          -
+  infeasible LP    :       0.00          0          0          -          0        0.0          0        0.0          0        0.0          0
+  bound exceed. LP :       0.00          2          2          -          4        8.0          0        0.0          0        0.0         29
+  strong branching :       0.00          0          0          -          0        0.0          0        0.0          -          -          0
+  pseudo solution  :       0.00          0          0          -          0        0.0          0        0.0          -          -          -
+  applied globally :       0.00          -          -          0         55        5.9          -          -          0          -          -
+  applied locally  :          -          -          -          0          0        0.0          -          -          0          -          -
+Separators         :   ExecTime  SetupTime      Calls  RootCalls    Cutoffs    DomReds  FoundCuts ViaPoolAdd  DirectAdd    Applied ViaPoolApp  DirectApp      Conss
+  cut pool         :       0.00          -          0          0          -          -          0          0          -          -          -          -          -    (maximal pool size:          0)
+  aggregation      :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  > cmir           :          -          -          -          -          -          -          -          0          0          0          0          0          -
+  > flowcover      :          -          -          -          -          -          -          -          0          0          0          0          0          -
+  > knapsackcover  :          -          -          -          -          -          -          -          0          0          0          0          0          -
+  cgmip            :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  clique           :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  closecuts        :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  convexproj       :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  disjunctive      :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  eccuts           :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  gauge            :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  gomory           :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  > gomorymi       :          -          -          -          -          -          -          -          0          0          0          0          0          -
+  > strongcg       :          -          -          -          -          -          -          -          0          0          0          0          0          -
+  impliedbounds    :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  interminor       :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  intobj           :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  mcf              :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  minor            :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  mixing           :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  oddcycle         :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  rapidlearning    :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  rlt              :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+  zerohalf         :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
+Cutselectors       :   ExecTime  SetupTime      Calls  RootCalls   Selected     Forced   Filtered  RootSelec   RootForc   RootFilt 
+  hybrid           :       0.00       0.00          0          0          0          0          0          0          0          0
+Pricers            :   ExecTime  SetupTime      Calls       Vars
+  problem variables:       0.00          -          0          0
+Branching Rules    :   ExecTime  SetupTime   BranchLP  BranchExt   BranchPS    Cutoffs    DomReds       Cuts      Conss   Children
+  allfullstrong    :       0.00       0.00          0          0          0          0          0          0          0          0
+  cloud            :       0.00       0.00          0          0          0          0          0          0          0          0
+  distribution     :       0.00       0.00          0          0          0          0          0          0          0          0
+  fullstrong       :       0.00       0.00          0          0          0          0          0          0          0          0
+  inference        :       0.00       0.00          0          0          0          0          0          0          0          0
+  leastinf         :       0.00       0.00          0          0          0          0          0          0          0          0
+  lookahead        :       0.00       0.00          0          0          0          0          0          0          0          0
+  mostinf          :       0.00       0.00          0          0          0          0          0          0          0          0
+  multaggr         :       0.00       0.00          0          0          0          0          0          0          0          0
+  nodereopt        :       0.00       0.00          0          0          0          0          0          0          0          0
+  pscost           :       0.00       0.00          0          0          0          0          0          0          0          0
+  random           :       0.00       0.00          0          0          0          0          0          0          0          0
+  relpscost        :       0.00       0.00          0          0          0          0          0          0          0          0
+  vanillafullstrong:       0.00       0.00          0          0          0          0          0          0          0          0
+Primal Heuristics  :   ExecTime  SetupTime      Calls      Found       Best
+  LP solutions     :       0.00          -          -          1          1
+  relax solutions  :       0.00          -          -          0          0
+  pseudo solutions :       0.00          -          -          0          0
+  strong branching :       0.00          -          -          0          0
+  actconsdiving    :       0.00       0.00          0          0          0
+  adaptivediving   :       0.00       0.00          0          0          0
+  alns             :       0.00       0.00          0          0          0
+  bound            :       0.00       0.00          0          0          0
+  clique           :       0.00       0.00          1          1          1
+  coefdiving       :       0.00       0.00          0          0          0
+  completesol      :       0.00       0.00          0          0          0
+  conflictdiving   :       0.00       0.00          0          0          0
+  crossover        :       0.00       0.00          0          0          0
+  dins             :       0.00       0.00          0          0          0
+  distributiondivin:       0.00       0.00          0          0          0
+  dps              :       0.00       0.00          0          0          0
+  dualval          :       0.00       0.00          0          0          0
+  farkasdiving     :       0.00       0.00          0          0          0
+  feaspump         :       0.00       0.00          0          0          0
+  fixandinfer      :       0.00       0.00          0          0          0
+  fracdiving       :       0.00       0.00          0          0          0
+  gins             :       0.00       0.00          0          0          0
+  guideddiving     :       0.00       0.00          0          0          0
+  indicator        :       0.00       0.00          0          0          0
+  intdiving        :       0.00       0.00          0          0          0
+  intshifting      :       0.00       0.00          0          0          0
+  linesearchdiving :       0.00       0.00          0          0          0
+  localbranching   :       0.00       0.00          0          0          0
+  locks            :       0.00       0.00          1          0          0
+  lpface           :       0.00       0.00          0          0          0
+  mpec             :       0.00       0.00          0          0          0
+  multistart       :       0.00       0.00          0          0          0
+  mutation         :       0.00       0.00          0          0          0
+  nlpdiving        :       0.00       0.00          0          0          0
+  objpscostdiving  :       0.00       0.00          0          0          0
+  octane           :       0.00       0.00          0          0          0
+  ofins            :       0.00       0.00          0          0          0
+  oneopt           :       0.00       0.00          1          0          0
+  padm             :       0.00       0.00          0          0          0
+  proximity        :       0.00       0.00          0          0          0
+  pscostdiving     :       0.00       0.00          0          0          0
+  randrounding     :       0.00       0.00          0          0          0
+  rens             :       0.00       0.00          0          0          0
+  reoptsols        :       0.00       0.00          0          0          0
+  repair           :       0.00       0.00          0          0          0
+  rins             :       0.00       0.00          0          0          0
+  rootsoldiving    :       0.00       0.00          0          0          0
+  rounding         :       0.00       0.00          0          0          0
+  shiftandpropagate:       0.00       0.00          0          0          0
+  shifting         :       0.00       0.00          0          0          0
+  simplerounding   :       0.00       0.00          0          0          0
+  subnlp           :       0.00       0.00          0          0          0
+  trivial          :       0.00       0.00          2          0          0
+  trivialnegation  :       0.00       0.00          0          0          0
+  trustregion      :       0.00       0.00          0          0          0
+  trysol           :       0.00       0.00          0          0          0
+  twoopt           :       0.00       0.00          0          0          0
+  undercover       :       0.00       0.00          0          0          0
+  vbounds          :       0.00       0.00          1          1          1
+  veclendiving     :       0.00       0.00          0          0          0
+  zeroobj          :       0.00       0.00          0          0          0
+  zirounding       :       0.00       0.00          0          0          0
+  other solutions  :          -          -          -          0          -
+LP                 :       Time      Calls Iterations  Iter/call   Iter/sec  Time-0-It Calls-0-It    ItLimit
+  primal LP        :       0.00          0          0       0.00          -       0.00          0
+  dual LP          :       0.00          1         51      51.00          -       0.00          0
+  lex dual LP      :       0.00          0          0       0.00          -
+  barrier LP       :       0.00          0          0       0.00          -       0.00          0
+  resolve instable :       0.00          0          0       0.00          -
+  diving/probing LP:       0.00          0          0       0.00          -
+  strong branching :       0.00          0          0       0.00          -          -          -          0
+    (at root node) :          -          0          0       0.00          -
+  conflict analysis:       0.00          4         29       7.25          -
+B&B Tree           :
+  number of runs   :          1
+  nodes            :          1 (0 internal, 1 leaves)
+  feasible leaves  :          0
+  infeas. leaves   :          0
+  objective leaves :          1
+  nodes (total)    :          1 (0 internal, 1 leaves)
+  nodes left       :          0
+  max depth        :          0
+  max depth (total):          0
+  backtracks       :          0 (0.0%)
+  early backtracks :          0 (0.0%)
+  nodes exc. ref.  :          0 (0.0%)
+  delayed cutoffs  :          0
+  repropagations   :          0 (0 domain reductions, 0 cutoffs)
+  avg switch length:       2.00
+  switching time   :       0.00
+Root Node          :
+  First LP value   : +2.89700000000000e+03
+  First LP Iters   :         51
+  First LP Time    :       0.00
+  Final Dual Bound : +2.89700000000000e+03
+  Final Root Iters :         51
+  Root LP Estimate :                     -
+Solution           :
+  Solutions found  :          3 (3 improvements)
+  First Solution   : +4.91500000000000e+03   (in run 1, after 1 nodes, 0.00 seconds, depth 10, found by <clique>)
+  Gap First Sol.   :   infinite
+  Gap Last Sol.    :       0.00 %
+  Primal Bound     : +2.89700000000000e+03   (in run 1, after 1 nodes, 0.00 seconds, depth 0, found by <relaxation>)
+  Dual Bound       : +2.89700000000000e+03
+  Gap              :       0.00 %
+Integrals          :      Total       Avg%
+  primal-dual      :       0.00       0.00
+  primal-ref       :       0.00       0.00
+  dual-ref         :       0.00       0.00

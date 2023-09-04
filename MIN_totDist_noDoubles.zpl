@@ -27,8 +27,8 @@ subto FourOrNone: forall <k,i> in (days * teams):
 subto playOnce: forall <k,j> in (days * teams):
     (sum <i> in teams: M[k,i,j]) == 1;
 
-subto maxDist: forall <k,i,j> in index:
-    M[k,i,j] * d[i,j] <= MAX;
+#subto maxDist: forall <k,i,j> in index:
+#    M[k,i,j] * d[i,j] <= MAX;
 
 subto initC: forall <k, i,j> in (days * pairs): forall <h> in teams:
     vif M[k,h,i] == 1 and M[k,h,j] == 1 then C[k,h,i,j] == 1 else  C[k,h,i,j] == 0 end;

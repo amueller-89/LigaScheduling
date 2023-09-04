@@ -1,0 +1,1240 @@
+<div class="two-small-paras" id="team-container">
+    
+    <div  class="team-card  position-None" onclick="load_team_info(10892, 13773)"
+    data-edit_date="2023.05.2613773" data-rgx="8439">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_1-roundnet-club-wurzburg.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Nur der RCW!</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8439</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Elisa</span>
+                             & 
+                            
+                        
+                            
+                                <span>Niklas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Tristan</span>
+                             & 
+                            
+                        
+                            
+                                <span>Konni</span>
+                             & 
+                            
+                        
+                            
+                                <span>Simon</span>
+                             & 
+                            
+                        
+                            
+                                <span>Lea</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(10893, 13774)"
+    data-edit_date="2023.05.2613774" data-rgx="8676">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_torpedo-phoenix-roundnet-dortmund.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Roundnet Dortmund</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8676</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Andreas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Lucas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Niklas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Gerrit</span>
+                             & 
+                            
+                        
+                            
+                                <span>Alicia</span>
+                             & 
+                            
+                        
+                            
+                                <span>Fabienne</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(10963, 14048)"
+    data-edit_date="2023.06.0414048" data-rgx="5590">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-karlsruhe.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">KA-Boom</div>
+            
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Jasmin</span>
+                             & 
+                            
+                        
+                            
+                                <span>Constantin</span>
+                             & 
+                            
+                        
+                            
+                                <span>Theresa</span>
+                             & 
+                            
+                        
+                            
+                                <span>Leon</span>
+                             & 
+                            
+                        
+                            
+                                <span>Björn-Felix</span>
+                             & 
+                            
+                        
+                            
+                                <span>Micha</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11000, 14067)"
+    data-edit_date="2023.06.0614067" data-rgx="8594">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_1-roundnet-club-koln.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Spaceballers Colonia</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8594</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Lukas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Luisa</span>
+                             & 
+                            
+                        
+                            
+                                <span>Samuel</span>
+                             & 
+                            
+                        
+                            
+                                <span>Birk</span>
+                             & 
+                            
+                        
+                            
+                                <span>Anna</span>
+                             & 
+                            
+                        
+                            
+                                <span>Tom</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11012, 14072)"
+    data-edit_date="2023.06.0714072" data-rgx="8160">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-raccoons.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Roundnet Raccoons</div>
+            
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Fabian</span>
+                             & 
+                            
+                        
+                            
+                                <span>Theresa</span>
+                             & 
+                            
+                        
+                            
+                                <span>Yannik</span>
+                             & 
+                            
+                        
+                            
+                                <span>Tobias</span>
+                             & 
+                            
+                        
+                            
+                                <span>Elise</span>
+                             & 
+                            
+                        
+                            
+                                <span>Levi</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11013, 14073)"
+    data-edit_date="2023.06.0714073" data-rgx="9136">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-abteilung-sv-lindenau-1848-e-v.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Leipsick</div>
+            
+
+
+
+<div class="rgx-badge  pro-div ">
+    
+    <img class="hint" data-content="Qualifiziert für die Pro Division" src="/static/ranking/images/rgxpro_small.png">
+    
+    <span class="rgx-value">9136</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Nicolas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Lennart</span>
+                             & 
+                            
+                        
+                            
+                                <span>Carolin</span>
+                             & 
+                            
+                        
+                            
+                                <span>Annalena</span>
+                             & 
+                            
+                        
+                            
+                                <span>Lasse</span>
+                             & 
+                            
+                        
+                            
+                                <span>Mattes</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11014, 14074)"
+    data-edit_date="2023.06.0714074" data-rgx="8462">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-heidelberg-beim-tsv-handschuhsh.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Heidelberg</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8462</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Jonas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Jil</span>
+                             & 
+                            
+                        
+                            
+                                <span>Marvin</span>
+                             & 
+                            
+                        
+                            
+                                <span>Josha</span>
+                             & 
+                            
+                        
+                            
+                                <span>Leo</span>
+                             & 
+                            
+                        
+                            
+                                <span>Nathalie</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11016, 14075)"
+    data-edit_date="2023.06.0714075" data-rgx="8610">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_munich-roundnet-community-e-v.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">MRC I</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8610</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Kristof</span>
+                             & 
+                            
+                        
+                            
+                                <span>Franziska</span>
+                             & 
+                            
+                        
+                            
+                                <span>Fiona</span>
+                             & 
+                            
+                        
+                            
+                                <span>Timo</span>
+                             & 
+                            
+                        
+                            
+                                <span>Julian</span>
+                             & 
+                            
+                        
+                            
+                                <span>Moritz</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11028, 14079)"
+    data-edit_date="2023.06.0714079" data-rgx="8924">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-sharks-kiel.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Roundnet Sharks Kiel</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8924</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Jarrit</span>
+                             & 
+                            
+                        
+                            
+                                <span>Sarah</span>
+                             & 
+                            
+                        
+                            
+                                <span>Ben</span>
+                             & 
+                            
+                        
+                            
+                                <span>Jan</span>
+                             & 
+                            
+                        
+                            
+                                <span>Lukas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Teresa</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11074, 14145)"
+    data-edit_date="2023.06.0914145" data-rgx="9398">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-069.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">NULL SECHS NEUN 1</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">9398</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Marcus</span>
+                             & 
+                            
+                        
+                            
+                                <span>Rici</span>
+                             & 
+                            
+                        
+                            
+                                <span>Nils</span>
+                             & 
+                            
+                        
+                            
+                                <span>Sascha</span>
+                             & 
+                            
+                        
+                            
+                                <span>Lukas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Janne</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11076, 14146)"
+    data-edit_date="2023.06.0914146" data-rgx="10165">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_red-eagles-roundnet-berlin.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Berlin</div>
+            
+
+
+
+<div class="rgx-badge  pro-div ">
+    
+    <img class="hint" data-content="Qualifiziert für die Pro Division" src="/static/ranking/images/rgxpro_small.png">
+    
+    <span class="rgx-value">10165</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Emil</span>
+                             & 
+                            
+                        
+                            
+                                <span>Rasmus</span>
+                             & 
+                            
+                        
+                            
+                                <span>Jonas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Nora</span>
+                             & 
+                            
+                        
+                            
+                                <span>Kristina</span>
+                             & 
+                            
+                        
+                            
+                                <span>Peer</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11086, 14155)"
+    data-edit_date="2023.06.0914155" data-rgx="9525">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_1-roundnet-club-koln.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">RCK Dinos</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">9525</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Lukas</span>
+                             & 
+                            
+                        
+                            
+                                <span>Klara</span>
+                             & 
+                            
+                        
+                            
+                                <span>Saskia</span>
+                             & 
+                            
+                        
+                            
+                                <span>Georg</span>
+                             & 
+                            
+                        
+                            
+                                <span>Mario</span>
+                             & 
+                            
+                        
+                            
+                                <span>Jan</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11094, 14216)"
+    data-edit_date="2023.06.1014216" data-rgx="6928">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-hildesheim.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Eintracht Hildesheim von 1861 e.V.</div>
+            
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Christin</span>
+                             & 
+                            
+                        
+                            
+                                <span>Sabrina</span>
+                             & 
+                            
+                        
+                            
+                                <span>Kolja</span>
+                             & 
+                            
+                        
+                            
+                                <span>Dirk</span>
+                             & 
+                            
+                        
+                            
+                                <span>Moritz</span>
+                             & 
+                            
+                        
+                            
+                                <span>Philipp</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11095, 14218)"
+    data-edit_date="2023.06.1014218" data-rgx="8411">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-stuttgart.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Fisch Pferd Fuchs</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8411</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Julian</span>
+                             & 
+                            
+                        
+                            
+                                <span>Ronja</span>
+                             & 
+                            
+                        
+                            
+                                <span>Malika</span>
+                             & 
+                            
+                        
+                            
+                                <span>Till</span>
+                             & 
+                            
+                        
+                            
+                                <span>Dennis</span>
+                             & 
+                            
+                        
+                            
+                                <span>Adrien</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11248, 14565)"
+    data-edit_date="2023.06.1514565" data-rgx="8658">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_1-roundnet-verein-mainz-e-v.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">1. Roundnet-Verein Mainz</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8658</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Yannick</span>
+                             & 
+                            
+                        
+                            
+                                <span>Alexandre</span>
+                             & 
+                            
+                        
+                            
+                                <span>Clemens</span>
+                             & 
+                            
+                        
+                            
+                                <span>Sören</span>
+                             & 
+                            
+                        
+                            
+                                <span>Anne</span>
+                             & 
+                            
+                        
+                            
+                                <span>Isabelle</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div  class="team-card  position-None" onclick="load_team_info(11676, 15143)"
+    data-edit_date="2023.07.1015143" data-rgx="8724">
+        <div class="team-logo">
+            <div class="logos logos-club">
+                
+                <img src="/media/clubs/logos/small_roundnet-ravens-marburg.png" style="">
+                
+            </div>
+            <div class="logos logos-country" style="display:none">
+                
+                <img src="/static/ranking/images/flags/germany.svg" style="">
+                
+            </div>
+        </div>
+        <div class="name-players">
+            <div class="name ">Ravens &amp; Griffins</div>
+            
+
+
+
+<div class="rgx-badge   elo- elo-div">
+    
+    <img class="hint" data-content="Die Farbe gibt an welche Division in den letzten Turnieren gespielt wurde" src="/static/ranking/images/rgx_small.png">
+    
+    <span class="rgx-value">8724</span>
+</div>
+
+
+
+            <div class="players font-cond">
+                
+                
+                    
+                        
+                            
+                                <span>Noëlle</span>
+                             & 
+                            
+                        
+                            
+                                <span>Tobias</span>
+                             & 
+                            
+                        
+                            
+                                <span>Sören</span>
+                             & 
+                            
+                        
+                            
+                                <span>Tim</span>
+                             & 
+                            
+                        
+                            
+                                <span>Jonathan</span>
+                             & 
+                            
+                        
+                            
+                                <span>Isa</span>
+                            
+                            
+                        
+                    
+                
+            </div>
+            
+            <div class="wl-position">
+                
+                
+                
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+</div>

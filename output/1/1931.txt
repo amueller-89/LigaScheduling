@@ -1,0 +1,8 @@
+In 4 seconds, the solver found a solution with a total distance of 1931 km.
+Average distance: 120 km
+Maximal distance: 409 km
+------Day 1------
+Spaceballers Colonia richtet aus für: ['Roundnet Dortmund', 'RCK Dinos', '1. Roundnet-Verein Mainz']
+Roundnet Raccoons richtet aus für: ['Nur der RCW!', 'NULL SECHS NEUN 1', 'Eintracht Hildesheim von 1861 e.V.']
+Leipsick richtet aus für: ['MRC I', 'Roundnet Sharks Kiel', 'Berlin']
+Fisch Pferd Fuchs richtet aus für: ['KA-Boom', 'Heidelberg', 'Ravens']

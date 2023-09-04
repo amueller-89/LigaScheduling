@@ -1,0 +1,6 @@
+In 0 seconds, the solver found a solution with a total distance of 1321 km.
+Average distance: 165 km
+Maximal distance: 318 km
+------Day 1------
+Nur der RCW! richtet aus für: ['Leipsick', 'Heidelberg', 'MRC I']
+Roundnet Dortmund richtet aus für: ['KA-Boom', 'Spaceballers Colonia', 'Roundnet Raccoons']

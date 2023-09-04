@@ -16,7 +16,7 @@ var B[days * pairs] binary;             # on day k, i and j play
 var C[days * teams * pairs] binary;     # on day k at h, i and j play
 var D[pairs] binary;                    # i and j play twice
 
-minimize Doubles:  (sum <i,j> in pairs: D[i,j]);
+minimize Doubles:  500*(sum <i,j> in pairs: D[i,j]) + (sum <k,i,j> in index: (M[k,i,j] * d[i,j]));
 
 subto FourOrNone: forall <k,i> in (days * teams):
     vif M[k,i,i] == 1 then
@@ -40,5 +40,5 @@ subto initB: forall <k,i,j> in (days * pairs):
           B[k,i,j] == (sum <h> in teams: C[k,h,i,j]);
 
 subto initD: forall <i,j> in pairs:
-                D[i,j] >= 1/2 *((sum <k> in days: B[k,i,j])-1);
+                D[i,j] >= 1/3 *((sum <k> in days: B[k,i,j])-1);
 

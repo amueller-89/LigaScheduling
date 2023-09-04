@@ -1,0 +1,1447 @@
+ <a class="name" href="/tournaments/schedule/team/15151">
+                    Hailife Kiel
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-club-augsburg.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14944">
+                    RNC Augsburg
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-oktos-potsdam-e-v.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15077">
+                    Roundnet Oktos Potsdam
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-otters-hamburg.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15114">
+                    Roundnet Otters Hamburg
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-aale-altona.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15107">
+                    1Aal7 Straßenbande
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-bremen.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14972">
+                    Stadtmusikanten
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-karlsruhe.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14942">
+                    Karlsruher Kojoten 2
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-heidelberg-beim-tsv-handschuhsh.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15120">
+                    Heidelberg 2
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-club-bonn-e-v.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15136">
+                    Roundnet Club Bonn
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_1-roundnet-club-wurzburg.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14945">
+                    Nur der kleine RCW
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-pandas-nurnberg.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15121">
+                    Pandas Nürnberg II
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_west-wings-essen-e-v.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14968">
+                    West Wings Essen II
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_torpedo-phoenix-roundnet-dortmund.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14951">
+                    Phoenix Füchse
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_parrots-dusseldorf.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15119">
+                    Parrots Düsseldorf
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_munich-roundnet-community-e-v.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14943">
+                    MRC II
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_brick-meadow-nutrias-halle.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15102">
+                    Brick Meadow Nutrias
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-stuttgart.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15100">
+                    RoundnetRoss Raketen
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-munster.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15123">
+                    FCG Münster
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-griffins-giessen.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14969">
+                    Griffins Gießen
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_1-roundnet-verein-mainz-e-v.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14940">
+                    1. Roundnet-Verein Mainz
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-tubingen.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15113">
+                    Tübinger Eisvögel I
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-ravens-marburg.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15088">
+                    MR Trash
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-rhinos-erlangen.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14964">
+                    Erlanger Rhinos
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_vc-freudenberg-roundnet.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15076">
+                    VC+RCK
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-069.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14941">
+                    NULL SECHS NEUN 2
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-flensburg.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14939">
+                    Northern sea tribe
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-hannover.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15124">
+                    Hannover 96
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_red-eagles-roundnet-berlin.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15115">
+                    Red Eagles - Platzhalter
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_west-wings-essen-e-v.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14953">
+                    West Wings Essen
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-rabbits-regensburg.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14966">
+                    Rabbits Regensburg I
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-braunschweig.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15084">
+                    Roundnet Lions Eintracht Braunschweig
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-raccoons.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15092">
+                    Waschbärrudel
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_red-eagles-roundnet-berlin.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15118">
+                    Boomball Berlin
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_1-roundnet-club-dresden.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14938">
+                    1. Roundnet Club Dresden
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-stuttgart.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14949">
+                    Störball Stuten
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_mosquitos-mannheim.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15126">
+                    Mosquitos Mannheim
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_gottinger-ganse-roundnet.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14967">
+                    Göttinger Gänse
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-rabbits-regensburg.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15094">
+                    Reigning Rabbits
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_1-roundnet-club-koln.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14958">
+                    RCKO Roundnet Op Kölsch
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_black-forest-monkeys.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15111">
+                    Black Forest Monkeys 1
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-karlsruhe.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14946">
+                    Karlsruher Kojoten 1
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_roundnet-abteilung-sv-lindenau-1848-e-v.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/14962">
+                    ToucanNetTerror (TNT)
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+    </tr>
+    
+    
+    
+    <tr class="team-row" style="background-color: rgba(255, 255, 255, 0.5)">
+        <td class="no-margin-right"></td>
+        <td class="no-margin-sides td-team-name">
+            <div class="team-logo">
+                <div class="logos">
+                    
+                    <img src="/media/clubs/logos/small_aachen-lobsters.png" style="width:25px; ">
+                    
+                </div>
+            </div>
+            <div class="team-name">
+                <a class="name" href="/tournaments/schedule/team/15149">
+                    Aachen Lobster 1
+                    
+                </a>
+            </div>
+        </td>
+        
+        
+        <td class="no-margin-left">0-0</td>
+        
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
+        <td class="no-margin-left">0:0</td>
+        
+        <td class="no-margin-left">0</td>
+        
