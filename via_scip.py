@@ -1,11 +1,11 @@
-import datetime
 import os, subprocess
 import random, math, re
 import matplotlib.pyplot as plt
 from geopy.geocoders import Nominatim
 from geopy import distance
-import shutil
 import geopandas as gpd
+import util
+from util import getGroups
 
 teams = []
 loc = []
@@ -109,20 +109,7 @@ def parseVariables(out, s="rand"):
     return sol
 
 
-# from a matrix corresponding to one matchday,
-# returns a list of groups, with the host as first element
-def getGroups(matrix):
-    groups = []
-    for i, x in enumerate(matrix):
-        if x[i] == 1:
-            guests = [j for j, v in enumerate(x) if v == 1 and j != i]
-            groups.append([i] + guests)
-    return groups
 
-
-# prints a matrix nicely
-def printMatrix(m):
-    print('\n'.join(['\t'.join(["." if str(cell) == "0" else str(cell) for cell in row]) for row in m]))
 
 
 def drawScatter(allGroups, print=False, name=""):
@@ -199,11 +186,11 @@ def writeSolution(allGroups):
 
 if __name__ == '__main__':
     t = 16  # number of teams
-    days = 5  # number of matchdays
+    days = 1  # number of matchdays
     MAX = 1000  # maximum distance between two teams in km
     size = 4  # number of teams per group
     s = "1"  # rand for random locations, 1 for 1liga, 2 for 2liga
-    write = True  # write solution to file
+    write = False  # write solution to file
 
     zimpl = "MIN_totDist_noDoubles"  # ZIMPL model file to use. The generated .lp has the same name
     # zimpl = "MIN_Doubles_NoTriples"
@@ -230,7 +217,7 @@ if __name__ == '__main__':
 
     for k in range(days):
         print("------Day " + str(k + 1) + "------")
-        # mprintMatrix(sol[k])
+        util.printMatrix(sol[k])
         groups = allGroups[k]
         for g in groups:
             guests = [names[x] for x in g[1:]]
