@@ -64,6 +64,7 @@ def create_model(df, M, C, groupsize=2, matchdays=2):
     return model
 
 
+
 if __name__ == "__main__":
     file = "input/1ligaLoc2"
     n_days = 1
@@ -80,7 +81,7 @@ if __name__ == "__main__":
         model = create_model(df, M, C, groupsize=n_size, matchdays=n_days)
         solver = cp_model.CpSolver()
         # solver.parameters.max_time_in_seconds = 15
-
+        #solution_printer = util.SolutionPrinter(M, n_days, n_teams, n_size, df)
         start = time.time()
         status = solver.Solve(model)
         elapsed = time.time() - start
@@ -94,17 +95,14 @@ if __name__ == "__main__":
                     sol[k, i, j] = 1
             # print(sol)
             allGroups = [util.getGroups(sol[k]) for k in range(n_days)]
-            # for k, groups in enumerate(allGroups):
-            #     print("------Day " + str(k + 1) + "------")
-            #     for g in groups:
-            #         guests = [df.iloc[i, 0] for i in g[1:]]
-            #         print(str(df.iloc[g[0], 0] + " hosts: " + str(guests)))
+            for k, groups in enumerate(allGroups):
+                print("------Day " + str(k + 1) + "------")
+                for g in groups:
+                    guests = [df.iloc[i, 0] for i in g[1:]]
+                    print(str(df.iloc[g[0], 0] + " hosts: " + str(guests)))
             return allGroups
         else:
             print(f"No solution. Elapsed time: {elapsed}s")
 
-
     allGroups = model_and_solve()
-    loc = df.iloc[:, 2:4].values.tolist()
-    util.drawScatter(allGroups, loc)
-    util.validate(allGroups, df)
+    util.drawScatter(allGroups, df.iloc[:, 2:4].values.tolist())

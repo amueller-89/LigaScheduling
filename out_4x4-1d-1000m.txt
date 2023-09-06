@@ -24,7 +24,7 @@ solve problem
 presolving:
 (round 1, fast)       17344 del vars, 19264 del conss, 0 add conss, 3856 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 11688 clqs
    (0.0s) running MILP presolver
-   (0.0s) MILP presolver (3 rounds): 3856 aggregations, 0 fixings, 0 bound changes
+   (1.0s) MILP presolver (3 rounds): 3856 aggregations, 0 fixings, 0 bound changes
 (round 2, medium)     21200 del vars, 32920 del conss, 5944 add conss, 3856 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 4216 clqs
 (round 3, exhaustive) 21200 del vars, 32920 del conss, 5944 add conss, 3856 chg bounds, 0 chg sides, 0 chg coeffs, 5944 upgd conss, 0 impls, 4216 clqs
 (round 4, medium)     21200 del vars, 32936 del conss, 6184 add conss, 3856 chg bounds, 0 chg sides, 0 chg coeffs, 5944 upgd conss, 0 impls, 4216 clqs
@@ -32,11 +32,11 @@ presolving:
 (round 6, exhaustive) 21440 del vars, 38696 del conss, 8104 add conss, 3856 chg bounds, 0 chg sides, 16 chg coeffs, 5944 upgd conss, 0 impls, 3736 clqs
 (round 7, exhaustive) 21440 del vars, 38936 del conss, 8344 add conss, 3856 chg bounds, 0 chg sides, 16 chg coeffs, 5944 upgd conss, 0 impls, 3736 clqs
 (round 8, fast)       21440 del vars, 39176 del conss, 8344 add conss, 3856 chg bounds, 0 chg sides, 16 chg coeffs, 5944 upgd conss, 0 impls, 3736 clqs
-   (2.0s) probing: 1000/1936 (51.7%) - 0 fixings, 0 aggregations, 666964 implications, 0 bound changes
-   (2.0s) probing: 1001/1936 (51.7%) - 0 fixings, 0 aggregations, 667698 implications, 0 bound changes
-   (2.0s) probing aborted: 1000/1000 successive useless probings
-   (2.0s) symmetry computation started: requiring (bin +, int -, cont +), (fixed: bin -, int +, cont -)
-   (2.0s) no symmetry present
+   (3.0s) probing: 1000/1936 (51.7%) - 0 fixings, 0 aggregations, 666964 implications, 0 bound changes
+   (3.0s) probing: 1001/1936 (51.7%) - 0 fixings, 0 aggregations, 667698 implications, 0 bound changes
+   (3.0s) probing aborted: 1000/1000 successive useless probings
+   (3.0s) symmetry computation started: requiring (bin +, int -, cont +), (fixed: bin -, int +, cont -)
+   (3.0s) no symmetry present
 presolving (9 rounds: 9 fast, 7 medium, 5 exhaustive):
  21440 deleted vars, 39176 deleted constraints, 8344 added constraints, 3856 tightened bounds, 0 added holes, 0 changed sides, 16 changed coefficients
  0 implications, 73288 cliques
@@ -45,21 +45,21 @@ presolved problem has 1936 variables (1936 bin, 0 int, 0 impl, 0 cont) and 2088 
     376 constraints of type <setppc>
    1680 constraints of type <and>
 transformed objective value is always integral (scale: 1)
-Presolving Time: 2.00
+Presolving Time: 3.00
 
  time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
-p 2.0s|     1 |     0 |     0 |     - | vbounds|   0 |1936 |2121 |3768 |   0 |  0 |  32 |   0 | 0.000000e+00 | 3.832000e+03 |    Inf | unknown
-  2.0s|     1 |     0 |    97 |     - |   114M |   0 |1936 |2133 |3768 |   0 |  0 |  44 |   0 | 1.881333e+03 | 3.832000e+03 | 103.69%| unknown
-  3.0s|     1 |     0 |   103 |     - |   116M |   0 |1936 |2140 |3772 |   4 |  1 |  52 |   0 | 1.881333e+03 | 3.832000e+03 | 103.69%| unknown
-  3.0s|     1 |     0 |   150 |     - |   117M |   0 |1936 |2140 |3778 |  10 |  2 |  52 |   0 | 1.914565e+03 | 3.832000e+03 | 100.15%| unknown
-  3.0s|     1 |     0 |   178 |     - |   119M |   0 |1936 |2140 |3782 |  14 |  3 |  52 |   0 | 1.925600e+03 | 3.832000e+03 |  99.00%| unknown
-  3.0s|     1 |     0 |   206 |     - |   120M |   0 |1936 |2140 |3787 |  19 |  4 |  52 |   0 | 1.931000e+03 | 3.832000e+03 |  98.45%| unknown
-  3.0s|     1 |     0 |   207 |     - |   122M |   0 |1936 |2140 |3789 |  21 |  5 |  52 |   0 | 1.931000e+03 | 3.832000e+03 |  98.45%| unknown
-d 3.0s|     1 |     0 |   207 |     - |farkasdi|   0 |1936 |2140 |3789 |   0 |  7 |  52 |   0 | 1.931000e+03 | 1.931000e+03 |   0.00%| unknown
-  3.0s|     1 |     0 |   207 |     - |   123M |   0 |1936 |2140 |3789 |  21 |  7 |  52 |   0 | 1.931000e+03 | 1.931000e+03 |   0.00%| unknown
+p 3.0s|     1 |     0 |     0 |     - | vbounds|   0 |1936 |2121 |3768 |   0 |  0 |  32 |   0 | 0.000000e+00 | 3.832000e+03 |    Inf | unknown
+  3.0s|     1 |     0 |    97 |     - |   114M |   0 |1936 |2133 |3768 |   0 |  0 |  44 |   0 | 1.881333e+03 | 3.832000e+03 | 103.69%| unknown
+  4.0s|     1 |     0 |   103 |     - |   116M |   0 |1936 |2140 |3772 |   4 |  1 |  52 |   0 | 1.881333e+03 | 3.832000e+03 | 103.69%| unknown
+  4.0s|     1 |     0 |   150 |     - |   117M |   0 |1936 |2140 |3778 |  10 |  2 |  52 |   0 | 1.914565e+03 | 3.832000e+03 | 100.15%| unknown
+  4.0s|     1 |     0 |   178 |     - |   119M |   0 |1936 |2140 |3782 |  14 |  3 |  52 |   0 | 1.925600e+03 | 3.832000e+03 |  99.00%| unknown
+  4.0s|     1 |     0 |   206 |     - |   120M |   0 |1936 |2140 |3787 |  19 |  4 |  52 |   0 | 1.931000e+03 | 3.832000e+03 |  98.45%| unknown
+  4.0s|     1 |     0 |   207 |     - |   122M |   0 |1936 |2140 |3789 |  21 |  5 |  52 |   0 | 1.931000e+03 | 3.832000e+03 |  98.45%| unknown
+d 4.0s|     1 |     0 |   207 |     - |farkasdi|   0 |1936 |2140 |3789 |   0 |  7 |  52 |   0 | 1.931000e+03 | 1.931000e+03 |   0.00%| unknown
+  4.0s|     1 |     0 |   207 |     - |   123M |   0 |1936 |2140 |3789 |  21 |  7 |  52 |   0 | 1.931000e+03 | 1.931000e+03 |   0.00%| unknown
 
 SCIP Status        : problem is solved [optimal solution found]
-Solving Time (sec) : 3.00
+Solving Time (sec) : 4.00
 Solving Nodes      : 1
 Primal Bound       : +1.93100000000000e+03 (2 solutions)
 Dual Bound         : +1.93100000000000e+03
@@ -7606,9 +7606,9 @@ Statistics
 ==========
 
 SCIP Status        : problem is solved [optimal solution found]
-Total Time         :       3.00
-  solving          :       3.00
-  presolving       :       2.00 (included in solving)
+Total Time         :       4.00
+  solving          :       4.00
+  presolving       :       3.00 (included in solving)
   reading          :       0.00
   copying          :       0.00 (1 #copies) (minimal 0.00, maximal 0.00, average 0.00)
 Original Problem   :
@@ -7633,7 +7633,7 @@ Presolvers         :   ExecTime  SetupTime  Calls  FixedVars   AggrVars   ChgTyp
   gateextraction   :       0.00       0.00      1          0          0          0          0          0       5760       1920          0          0
   implics          :       0.00       0.00      7          0          0          0          0          0          0          0          0          0
   inttobinary      :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
-  milp             :       0.00       0.00      1          0       3856          0          0          0      13656       5944          0          0
+  milp             :       1.00       0.00      1          0       3856          0          0          0      13656       5944          0          0
   qpkktref         :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
   redvub           :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
   sparsify         :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
@@ -7668,7 +7668,7 @@ Constraints        :     Number  MaxNumber  #Separate #Propagate    #EnfoLP    #
 Constraint Timings :  TotalTime  SetupTime   Separate  Propagate     EnfoLP     EnfoPS     EnfoRelax   Check    ResProp    SB-Prop
   benderslp        :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
   integral         :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
-  knapsack         :       1.00       0.00       0.00       1.00       0.00       0.00       0.00       0.00       0.00       0.00
+  knapsack         :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
   setppc           :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
   and              :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
   linear           :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
@@ -7719,7 +7719,7 @@ Separators         :   ExecTime  SetupTime      Calls  RootCalls    Cutoffs    D
   disjunctive      :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
   eccuts           :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
   gauge            :       0.00       0.00          0          0          0          0          0          0          0          0          0          0          0
-  gomory           :       1.00       0.00          5          5          0          0        437        153          0          4          4          0          0
+  gomory           :       0.00       0.00          5          5          0          0        437        153          0          4          4          0          0
   > gomorymi       :          -          -          -          -          -          -          -         88          0          3          3          0          -
   > strongcg       :          -          -          -          -          -          -          -         65          0          1          1          0          -
   impliedbounds    :       0.00       0.00          5          5          0          0          9         13          0          3          3          0          0
@@ -7809,7 +7809,7 @@ Primal Heuristics  :   ExecTime  SetupTime      Calls      Found       Best
   trustregion      :       0.00       0.00          0          0          0
   trysol           :       0.00       0.00          0          0          0
   twoopt           :       0.00       0.00          0          0          0
-  undercover       :       0.00       0.00          1          0          0
+  undercover       :       1.00       0.00          1          0          0
   vbounds          :       0.00       0.00          1          1          1
   veclendiving     :       0.00       0.00          0          0          0
   zeroobj          :       0.00       0.00          0          0          0
@@ -7851,13 +7851,13 @@ Root Node          :
   Root LP Estimate :                     -
 Solution           :
   Solutions found  :          2 (2 improvements)
-  First Solution   : +3.83200000000000e+03   (in run 1, after 1 nodes, 2.00 seconds, depth 11, found by <vbounds>)
+  First Solution   : +3.83200000000000e+03   (in run 1, after 1 nodes, 3.00 seconds, depth 11, found by <vbounds>)
   Gap First Sol.   :   infinite
   Gap Last Sol.    :       0.00 %
-  Primal Bound     : +1.93100000000000e+03   (in run 1, after 1 nodes, 3.00 seconds, depth 1, found by <farkasdiving>)
+  Primal Bound     : +1.93100000000000e+03   (in run 1, after 1 nodes, 4.00 seconds, depth 1, found by <farkasdiving>)
   Dual Bound       : +1.93100000000000e+03
   Gap              :       0.00 %
 Integrals          :      Total       Avg%
-  primal-dual      :     250.90      83.63
+  primal-dual      :     350.90      87.73
   primal-ref       :          -          - (not evaluated)
   dual-ref         :          -          - (not evaluated)
