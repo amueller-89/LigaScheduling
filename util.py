@@ -1,7 +1,34 @@
 import matplotlib.pyplot as plt
 import geopandas as gpd
-from geopy import distance
+import pandas as pd
+from geopy.distance import geodesic
+from geopy.geocoders import Nominatim
+import ast
 
+def init_df(file, max=16):
+    df = pd.read_csv(file, sep=",", nrows=max)
+    if not "coords" in df.columns:
+        prep_dist(df)
+        df.to_csv(file, index=False, mode='a')
+    else:
+        df['coords'] = df['coords'].apply(ast.literal_eval)
+    return df
+
+
+def prep_dist(df):
+    df['coords'] = df['city'].apply(coordinates)
+    for i, row_i in df.iterrows():
+         df[i] = [distance(row_i['coords'], row_j['coords']) for j, row_j in df.iterrows()]
+
+def coordinates(city):
+    geolocator = Nominatim(user_agent="1")
+    location = geolocator.geocode(city)
+    return [location.latitude, location.longitude]
+
+def distance(coord1, coord2):
+    # better distances than geodesic?
+    d = geodesic(coord1, coord2).kilometers
+    return int(d)
 
 def printMatrix(m):
     print('\n'.join(['\t'.join(["." if str(cell) == "0" else str(cell) for cell in row]) for row in m]))
@@ -16,7 +43,7 @@ def getGroups(matrix):
             groups.append([i] + guests)
     return groups
 
-def drawScatter(allGroups, loc, print=False, name=""):
+def drawScatter(allGroups, loc, name):
     clrs = [
         'b',  # Blue
         'g',  # Green
@@ -39,7 +66,7 @@ def drawScatter(allGroups, loc, print=False, name=""):
         '#8B4513',  # SaddleBrown
         '#2E8B57',  # SeaGreen
     ]
-    gdf = gpd.read_file("DEU_adm.zip")
+    gdf = gpd.read_file("/Users/user/ligascheduling/LigaScheduling/DEU_adm.zip")
     teams = range(len(loc))
     if allGroups[0]:
         days = len(allGroups)
@@ -53,29 +80,45 @@ def drawScatter(allGroups, loc, print=False, name=""):
     else:
         gdf.plot(color='white', edgecolor='black')
         for x in teams:
-            plt.scatter(loc[x][1], loc[x][0], s=80, c=clrs[x])
-    if print:
-        plt.savefig(name + ".png", bbox_inches='tight')
-    else:
-        plt.show()
+            plt.scatter(loc[x][1], loc[x][0], s=80, c=clrs[x])        
+    plt.savefig(name + ".png", bbox_inches='tight')
 
 
-def validate(allGroups, df):
-    teams = df.iloc[:, 0].values.tolist()
-    return True  ## TODO implement
-
-
-def evaluate(allGroups, df=None, loc = None):
-    if not validate(allGroups, df):
-        return False
+def evaluate(allGroups, df):
     sum = 0
+    perteam = {city: 0 for city in df['city']}
+    out = ""
     for k in range(len(allGroups)):
+        print(f"--day {k+1}--")
+        out += f"--day {k+1}--\n"  
         for g in allGroups[k]:
-            for i in g:
-                # print(f"distance from {df.loc[g[0], 'name']} to {df.loc[i, 'name']}")
-                # print(f"sum is {sum}, adding {df.loc[g[0], i]}")
-                if df:
-                    sum += df.loc[g[0], i]
-                else:
-                    sum += int(distance.distance([loc[g[0]], loc[i]]).km)
-    return sum
+            host = df['city'][g[0]]
+            string = f"{host}: "
+            for i in g[1:]:
+                guest = df['city'][i]
+                string += f"{guest}, "
+                distance = df[str(i)][g[0]]
+                # print(f"distance {host} - {guest}: {distance}km")
+                sum += distance
+                # print(f"sum is now {sum}")
+                perteam[guest] += distance
+                # else:
+                #     sum += int(distance.distance([loc[g[0]], loc[i]]).km)
+            print(string[:-2])
+            out += string[:-2]+ "\n"
+    
+    min_key = min(perteam, key=lambda k: perteam[k])
+    max_key = max(perteam, key=lambda k: perteam[k])
+    print(f"aggregate distance travelled: {sum} km")
+    out += f"-- summary -- \n"
+    out += f"aggregate distance travelled: \t{sum} km\n"
+    out += f"average distance travelled: \t{int(sum/len(perteam))} km\n"
+    out += f"minimal distance travelled: \t{perteam[min_key]} km, by {min_key}\n"
+    out += f"maximal distance travelled: \t{perteam[max_key]} km, by {max_key}\n"
+    print(f"minimal distance per team: \t{perteam[min_key]} km, by {min_key}")
+    print(f"maximal distance per team: \t{perteam[max_key]} km, by {max_key}")
+    out += f"-- all teams --\n"
+    for key in sorted(perteam, key= lambda x : -perteam[x]):
+        tab =  "\t\t" if len(key) < 7 else "\t"
+        out += f"{key}:{tab}{perteam[key]} km\n"
+    return out

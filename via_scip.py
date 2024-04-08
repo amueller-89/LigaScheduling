@@ -16,6 +16,7 @@ solvingTime = ""
 ObjVal = ""
 
 
+
 def prepareTeams(t=12, s="rand"):
     for i in range(t):
         teams.append(i)
