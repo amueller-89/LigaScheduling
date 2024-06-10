@@ -1,33 +1,38 @@
-import random
+import random, math
 
-def printPositions(positions):
-    print(f"    {positions[0]}" )
-    print(f"{positions[3]}      {positions[1]}")
-    print(f"    {positions[2]}" )
+def printPositions(positions, server):
+    withServer = [positions[0], positions[1], positions[2], positions[3]]
+    withServer[server] = withServer[server].upper()
+    print(f"    {withServer[0]}" )
+    print(f"{withServer[3]}      {withServer[1]}")
+    print(f"    {withServer[2]}" )
 
 if __name__ == "__main__":
     probs = {"mm":0.2, 
              "fm":0.1, 
              "mf":0.8, 
-             "ff":0.25}
-    pointsPlayed = 100
-    us, them  = [0,0]
-    n = 1000
-    positions = 'fmmf' # (us us them them) clockwise
-    weServe = True
+             "ff":0.3}
+    iterations = 1000
+    pointsPlayed = 40
     sum = 0
+    best, worst = [0, pointsPlayed]
     report = False
-    for i in range(n):
+    for i in range(iterations):
+        us, them  = [0,0]
+        positions = 'fmmf' # (us us them them) clockwise
+        weServe = True
         while us + them < pointsPlayed:
+            roll = random.random()
             if(report):
                 print("---")
                 print(f"score: {us} - {them}")
-                printPositions(positions)
-                print(f"we serve: {weServe}") 
+                server = (us % 2) if weServe else (them % 2) + 2
+                printPositions(positions,server)
+                print(f"we serve with roll {roll}" if weServe else f"they serve with roll {roll}") 
             if weServe:
                 server = positions[0] if us % 2 == 0 else positions[1]
                 receiver = positions[2] if us % 2 == 0 else positions[3]
-                if(random.random() < probs[server+receiver]): # ace
+                if(roll < probs[server+receiver]): # ace
                     if(report):
                         print(f"ace, our {server} on {receiver}")
                     us += 1
@@ -38,16 +43,20 @@ if __name__ == "__main__":
             else: # they serve
                 server = positions[2] if them % 2 == 0 else positions[3]
                 receiver = positions[0] if them % 2 == 0 else positions[1]
-                if(random.random() < probs[server+receiver]): # ace
+                if(roll < probs[server+receiver]): # ace
                     if(report):
                         print(f"ace, their {server} on {receiver}")
                     them += 1
-                    positions = positions[0] + positions[1] + positions[2] + positions[3]
+                    positions = positions[0] + positions[1] + positions[3] + positions[2]
                 else:
                     us += 1
                     weServe = True
         print(us, them) # result
         sum += (us - them)
+        best = max(us, best)
+        worst = min(us, worst)
         [us, them] = [0,0]
-    print(f"{sum/n} average point difference after {pointsPlayed} points")
+        # print(f"{sum/(i+1)} average point difference after {pointsPlayed} points ({i+1} iterations)")
+    print(f"{sum/iterations} average point difference after {pointsPlayed} points, {iterations} iterations)")
+    print(f"best: {best}, worst: {worst} out {pointsPlayed}")
     
