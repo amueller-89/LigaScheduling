@@ -1,0 +1,53 @@
+import random
+
+def printPositions(positions):
+    print(f"    {positions[0]}" )
+    print(f"{positions[3]}      {positions[1]}")
+    print(f"    {positions[2]}" )
+
+if __name__ == "__main__":
+    probs = {"mm":0.2, 
+             "fm":0.1, 
+             "mf":0.8, 
+             "ff":0.25}
+    pointsPlayed = 100
+    us, them  = [0,0]
+    n = 1000
+    positions = 'fmmf' # (us us them them) clockwise
+    weServe = True
+    sum = 0
+    report = False
+    for i in range(n):
+        while us + them < pointsPlayed:
+            if(report):
+                print("---")
+                print(f"score: {us} - {them}")
+                printPositions(positions)
+                print(f"we serve: {weServe}") 
+            if weServe:
+                server = positions[0] if us % 2 == 0 else positions[1]
+                receiver = positions[2] if us % 2 == 0 else positions[3]
+                if(random.random() < probs[server+receiver]): # ace
+                    if(report):
+                        print(f"ace, our {server} on {receiver}")
+                    us += 1
+                    positions = positions[1] + positions[0] + positions[2] + positions[3]
+                else:
+                    them += 1
+                    weServe = False
+            else: # they serve
+                server = positions[2] if them % 2 == 0 else positions[3]
+                receiver = positions[0] if them % 2 == 0 else positions[1]
+                if(random.random() < probs[server+receiver]): # ace
+                    if(report):
+                        print(f"ace, their {server} on {receiver}")
+                    them += 1
+                    positions = positions[0] + positions[1] + positions[2] + positions[3]
+                else:
+                    us += 1
+                    weServe = True
+        print(us, them) # result
+        sum += (us - them)
+        [us, them] = [0,0]
+    print(f"{sum/n} average point difference after {pointsPlayed} points")
+    

@@ -7,7 +7,6 @@ import util as u
 from datetime import datetime
 import os
 
-
 def create_model(df, groupsize=2, matchdays=2, forceHost = True):
     model = cp_model.CpModel()
     teams = range(len(df))
